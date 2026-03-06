@@ -1,30 +1,17 @@
 import pandas as pd
-import re
 
-# -----------------------------
-# Load CSV files
-# -----------------------------
-
-gpt = pd.read_csv("../results/gpt_outputs.csv")
-gemini = pd.read_csv("../results/gemini_outputs.csv")
-deepseek = pd.read_csv("../results/deepseek_outputs.csv")
-
-# -----------------------------
-# Known entities
-# -----------------------------
+gpt = pd.read_csv("gpt_outputs.csv")
+gemini = pd.read_csv("gemini_outputs.csv")
+deepseek = pd.read_csv("deepseek_outputs.csv")
 
 HOUSES = {"gryffindor","slytherin","ravenclaw","hufflepuff"}
-
-# -----------------------------
-# Extract houses from response
-# -----------------------------
 
 def extract_houses(text):
 
     if not isinstance(text,str):
         return set()
 
-    text = text.lower()
+    text=text.lower()
 
     found=set()
 
@@ -34,27 +21,6 @@ def extract_houses(text):
 
     return found
 
-# -----------------------------
-# Extract number mentioned
-# -----------------------------
-
-def extract_count(text):
-
-    if not isinstance(text,str):
-        return None
-
-    text=text.lower()
-
-    numbers=re.findall(r'\b[0-9]+\b',text)
-
-    if numbers:
-        return int(numbers[0])
-
-    return None
-
-# -----------------------------
-# Jaccard similarity
-# -----------------------------
 
 def jaccard(a,b):
 
@@ -63,62 +29,74 @@ def jaccard(a,b):
 
     return len(a & b) / len(a | b)
 
-# -----------------------------
-# Evaluate models
-# -----------------------------
 
-def evaluate_pair(df1,df2):
+def instruction_compliance(text):
 
-    jaccard_scores=[]
-    constraint_violations=0
-    count_errors=0
-    structural_drift=0
+    houses=extract_houses(text)
 
-    for i in range(len(df1)):
+    return len(houses)>0
 
-        out1=df1.iloc[i,1]
-        out2=df2.iloc[i,1]
 
-        set1=extract_houses(out1)
-        set2=extract_houses(out2)
+def planning_correct(text):
 
-        # Jaccard
-        jaccard_scores.append(jaccard(set1,set2))
+    houses=extract_houses(text)
 
-        # Constraint violation
-        if len(set1)==0:
-            constraint_violations+=1
+    return len(houses)<=3
 
-        # Count agreement
-        count=extract_count(out1)
 
-        if count is not None:
-            if count!=len(set1):
-                count_errors+=1
+def evaluate_model(df):
 
-        # Structural drift
-        if type(out1)!=type(out2):
-            structural_drift+=1
+    compliance=0
+    planning=0
 
-    total=len(df1)
+    for i in range(len(df)):
+
+        out=df.iloc[i,1]
+
+        if instruction_compliance(out):
+            compliance+=1
+
+        if planning_correct(out):
+            planning+=1
+
+    total=len(df)
 
     return {
 
-        "avg_jaccard":sum(jaccard_scores)/total,
-        "constraint_violation_rate":constraint_violations/total,
-        "count_error_rate":count_errors/total,
-        "structural_drift_rate":structural_drift/total
+        "instruction_compliance_rate":compliance/total,
+        "planning_accuracy":planning/total
+
     }
 
-# -----------------------------
-# Run evaluation
-# -----------------------------
 
-print("\nGPT vs Gemini")
-print(evaluate_pair(gpt,gemini))
+def consistency(df1,df2):
 
-print("\nGPT vs DeepSeek")
-print(evaluate_pair(gpt,deepseek))
+    scores=[]
 
-print("\nGemini vs DeepSeek")
-print(evaluate_pair(gemini,deepseek))
+    for i in range(len(df1)):
+
+        set1=extract_houses(df1.iloc[i,1])
+        set2=extract_houses(df2.iloc[i,1])
+
+        scores.append(jaccard(set1,set2))
+
+    return sum(scores)/len(scores)
+
+
+print("MODEL METRICS")
+
+print("\nGPT")
+print(evaluate_model(gpt))
+
+print("\nGemini")
+print(evaluate_model(gemini))
+
+print("\nDeepSeek")
+print(evaluate_model(deepseek))
+
+
+print("\nCONSISTENCY")
+
+print("GPT vs Gemini:",consistency(gpt,gemini))
+print("GPT vs DeepSeek:",consistency(gpt,deepseek))
+print("Gemini vs DeepSeek:",consistency(gemini,deepseek))
