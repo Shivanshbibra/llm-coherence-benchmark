@@ -1,0 +1,972 @@
+id,category,prompt,difficulty,constraint_count,steps,paraphrase_group,source
+1,instructability,List all Hogwarts houses in lowercase only.,easy,1,,,original
+2,instructability,List all Hogwarts houses in uppercase only.,easy,1,,,original
+3,instructability,List all Hogwarts houses in title case only.,easy,1,,,original
+4,instructability,Return the Hogwarts houses as a comma-separated list.,easy,1,,,original
+5,instructability,Return the Hogwarts houses separated by semicolons.,easy,1,,,original
+6,instructability,Return the Hogwarts houses separated by vertical bars.,easy,1,,,original
+7,instructability,Return the Hogwarts houses separated by slashes.,easy,1,,,original
+8,instructability,Return the Hogwarts houses as a JSON array.,easy,1,,,original
+9,instructability,Return the Hogwarts houses as a Python list.,easy,1,,,original
+10,instructability,Return the Hogwarts houses as a numbered list.,easy,1,,,original
+11,instructability,Return the Hogwarts houses as bullet points.,easy,1,,,original
+12,instructability,Return the Hogwarts houses on a single line only.,easy,1,,,original
+13,instructability,Return the Hogwarts houses each on a new line.,easy,1,,,original
+14,instructability,"Return only the house names, no explanation.",easy,1,,,original
+15,instructability,Provide the list without any introductory text.,easy,1,,,original
+16,instructability,Do not include the word “house” in your answer.,easy,1,,,original
+17,instructability,Provide the houses enclosed in square brackets.,easy,1,,,original
+18,instructability,Provide the houses enclosed in parentheses.,easy,1,,,original
+19,instructability,Provide the houses enclosed in quotation marks.,easy,1,,,original
+20,instructability,Provide the houses in reverse alphabetical order.,easy,1,,,original
+21,instructability,Provide the houses in alphabetical order.,easy,1,,,original
+22,instructability,Provide the houses sorted by length of name.,easy,1,,,original
+23,instructability,Provide the houses in reverse order of length.,easy,1,,,original
+24,instructability,Provide the houses in a single sentence only.,easy,1,,,original
+25,instructability,Provide the houses in exactly four words.,easy,1,,,original
+26,instructability,Provide the houses without using commas.,easy,1,,,original
+27,instructability,Provide the houses without using conjunctions.,easy,1,,,original
+28,instructability,Provide the houses separated by the word “and”.,easy,1,,,original
+29,instructability,Provide the houses separated by hyphens.,easy,1,,,original
+30,instructability,Provide the houses separated by colons.,easy,1,,,original
+31,instructability,Return the answer strictly in JSON format.,easy,1,,,original
+32,instructability,Return the answer strictly in plain text.,easy,1,,,original
+33,instructability,Provide the houses as a CSV line.,easy,1,,,original
+34,instructability,Provide the houses as a markdown list.,easy,1,,,original
+35,instructability,Provide the houses as a table with one column.,easy,1,,,original
+36,instructability,Provide the houses as a table with two columns.,easy,1,,,original
+37,instructability,Provide the houses with numbering starting from 0.,easy,1,,,original
+38,instructability,Provide the houses with numbering starting from 1.,easy,1,,,original
+39,instructability,Provide the houses without punctuation.,easy,1,,,original
+40,instructability,Provide the houses without repeating any word.,easy,1,,,original
+41,instructability,Provide the houses sorted in descending alphabetical order.,easy,1,,,original
+42,instructability,Provide the houses sorted in ascending alphabetical order.,easy,1,,,original
+43,instructability,Provide the houses grouped by first letter.,easy,1,,,original
+44,instructability,Provide the houses grouped by length.,easy,1,,,original
+45,instructability,Provide the houses in reverse listing order.,easy,1,,,original
+46,instructability,Provide the houses in sentence form separated by commas.,easy,1,,,original
+47,instructability,Provide the houses in all caps separated by spaces.,easy,1,,,original
+48,instructability,Provide the houses in lowercase separated by commas.,easy,1,,,original
+49,instructability,Provide the houses in camelCase.,easy,1,,,original
+50,instructability,Provide the houses in snake_case.,easy,1,,,original
+51,instructability,Provide the houses in kebab-case.,easy,1,,,original
+52,instructability,Provide the houses enclosed in curly braces.,easy,1,,,original
+53,instructability,Provide the houses enclosed in angle brackets.,easy,1,,,original
+54,instructability,Provide the houses as an HTML list.,easy,1,,,original
+55,instructability,Provide the houses as a JSON object with key “houses”.,easy,1,,,original
+56,instructability,Provide the houses without explanation and without formatting.,easy,1,,,original
+57,instructability,"Provide only the names, nothing else.",easy,1,,,original
+58,instructability,Provide only four words corresponding to the houses.,easy,1,,,original
+59,instructability,Provide the houses in alphabetical order separated by semicolons.,easy,1,,,original
+60,instructability,Provide the houses in reverse alphabetical order separated by commas.,easy,1,,,original
+61,instructability,Provide the houses sorted by number of letters ascending.,easy,1,,,original
+62,instructability,Provide the houses sorted by number of letters descending.,easy,1,,,original
+63,instructability,Provide the houses as a single paragraph.,easy,1,,,original
+64,instructability,Provide the houses as four separate bullet points.,easy,1,,,original
+65,instructability,Provide the houses in lowercase JSON format.,easy,1,,,original
+66,instructability,Provide the houses in uppercase JSON format.,easy,1,,,original
+67,instructability,Provide the houses enclosed in double quotes separated by commas.,easy,1,,,original
+68,instructability,Provide the houses without spaces.,easy,1,,,original
+69,instructability,Provide the houses separated only by spaces.,easy,1,,,original
+70,instructability,Provide the houses sorted alphabetically with numbering.,easy,1,,,original
+71,instructability,List exactly one Hogwarts house.,medium,2,,,original
+72,instructability,List exactly two Hogwarts houses.,medium,2,,,original
+73,instructability,List exactly three Hogwarts houses.,medium,2,,,original
+74,instructability,List exactly four Hogwarts houses.,medium,2,,,original
+75,instructability,List exactly two Hogwarts houses excluding Gryffindor.,medium,2,,,original
+76,instructability,List exactly two Hogwarts houses excluding Slytherin.,medium,2,,,original
+77,instructability,List exactly two Hogwarts houses excluding Ravenclaw.,medium,2,,,original
+78,instructability,List exactly two Hogwarts houses excluding Hufflepuff.,medium,2,,,original
+79,instructability,List exactly three Hogwarts houses excluding Gryffindor.,medium,2,,,original
+80,instructability,List exactly three Hogwarts houses excluding Slytherin.,medium,2,,,original
+81,instructability,List exactly three Hogwarts houses excluding Ravenclaw.,medium,2,,,original
+82,instructability,List exactly three Hogwarts houses excluding Hufflepuff.,medium,2,,,original
+83,instructability,Provide exactly one house in lowercase.,medium,2,,,original
+84,instructability,Provide exactly one house in uppercase.,medium,2,,,original
+85,instructability,Provide exactly two houses in alphabetical order.,medium,2,,,original
+86,instructability,Provide exactly two houses in reverse alphabetical order.,medium,2,,,original
+87,instructability,Provide exactly three houses separated by commas.,medium,2,,,original
+88,instructability,Provide exactly two houses without commas.,medium,2,,,original
+89,instructability,Provide exactly two houses in JSON format.,medium,2,,,original
+90,instructability,Provide exactly three houses in JSON array format.,medium,2,,,original
+91,instructability,List exactly one house that starts with ‘G’.,medium,2,,,original
+92,instructability,List exactly one house that starts with ‘S’.,medium,2,,,original
+93,instructability,List exactly one house that starts with ‘R’.,medium,2,,,original
+94,instructability,List exactly one house that starts with ‘H’.,medium,2,,,original
+95,instructability,Provide exactly two houses not including Slytherin and Ravenclaw.,medium,2,,,original
+96,instructability,Provide exactly two houses not including Gryffindor and Hufflepuff.,medium,2,,,original
+97,instructability,Provide exactly three houses except Gryffindor.,medium,2,,,original
+98,instructability,Provide exactly three houses except Slytherin.,medium,2,,,original
+99,instructability,Provide exactly three houses except Ravenclaw.,medium,2,,,original
+100,instructability,Provide exactly three houses except Hufflepuff.,medium,2,,,original
+101,instructability,Provide exactly one house in quotation marks.,medium,2,,,original
+102,instructability,Provide exactly two houses separated by semicolons.,medium,2,,,original
+103,instructability,Provide exactly three houses sorted alphabetically.,medium,2,,,original
+104,instructability,Provide exactly two houses sorted by name length.,medium,2,,,original
+105,instructability,Provide exactly one house in snake_case.,medium,2,,,original
+106,instructability,Provide exactly one house in camelCase.,medium,2,,,original
+107,instructability,Provide exactly two houses enclosed in brackets.,medium,2,,,original
+108,instructability,Provide exactly three houses enclosed in parentheses.,medium,2,,,original
+109,instructability,Provide exactly one house as a JSON value.,medium,2,,,original
+110,instructability,Provide exactly two houses without explanation.,medium,2,,,original
+111,instructability,Provide exactly three houses without punctuation.,medium,2,,,original
+112,instructability,Provide exactly two houses in uppercase without commas.,medium,2,,,original
+113,instructability,Provide exactly three houses separated by spaces.,medium,2,,,original
+114,instructability,Provide exactly two houses separated by vertical bars.,medium,2,,,original
+115,instructability,Provide exactly one house starting with a consonant.,medium,2,,,original
+116,instructability,Provide exactly one house starting with a vowel.,medium,2,,,original
+117,instructability,Provide exactly two houses starting with different letters.,medium,2,,,original
+118,instructability,Provide exactly three houses starting with different letters.,medium,2,,,original
+119,instructability,Provide exactly two houses not in alphabetical order.,medium,2,,,original
+120,instructability,Provide exactly three houses in reverse alphabetical order.,medium,2,,,original
+121,instructability,Provide exactly two houses except the alphabetically first one.,medium,2,,,original
+122,instructability,Provide exactly two houses except the alphabetically last one.,medium,2,,,original
+123,instructability,Provide exactly one house except Gryffindor.,medium,2,,,original
+124,instructability,Provide exactly one house except Slytherin.,medium,2,,,original
+125,instructability,Provide exactly one house except Ravenclaw.,medium,2,,,original
+126,instructability,Provide exactly one house except Hufflepuff.,medium,2,,,original
+127,instructability,Provide exactly three houses excluding the shortest name.,medium,2,,,original
+128,instructability,Provide exactly three houses excluding the longest name.,medium,2,,,original
+129,instructability,Provide exactly two houses excluding the alphabetically middle one.,medium,2,,,original
+130,instructability,Provide exactly three houses excluding the alphabetically middle one.,medium,2,,,original
+131,instructability,List exactly two Hogwarts houses in lowercase separated by commas.,hard,3,,,original
+132,instructability,List exactly three Hogwarts houses in uppercase separated by semicolons.,hard,3,,,original
+133,instructability,List exactly two Hogwarts houses in alphabetical order in JSON format.,hard,3,,,original
+134,instructability,List exactly three Hogwarts houses in reverse alphabetical order in JSON format.,hard,3,,,original
+135,instructability,Provide exactly two houses excluding Gryffindor in lowercase JSON.,hard,3,,,original
+136,instructability,Provide exactly three houses excluding Slytherin in uppercase JSON.,hard,3,,,original
+137,instructability,Provide exactly two houses excluding Ravenclaw in alphabetical order separated by commas.,hard,3,,,original
+138,instructability,Provide exactly three houses excluding Hufflepuff in reverse alphabetical order separated by commas.,hard,3,,,original
+139,instructability,Provide exactly two houses sorted by length in lowercase.,hard,3,,,original
+140,instructability,Provide exactly three houses sorted by length in uppercase.,hard,3,,,original
+141,instructability,Provide exactly two houses enclosed in square brackets separated by semicolons.,hard,3,,,original
+142,instructability,Provide exactly three houses enclosed in parentheses separated by commas.,hard,3,,,original
+143,instructability,Provide exactly two houses without punctuation in lowercase.,hard,3,,,original
+144,instructability,Provide exactly three houses without punctuation in uppercase.,hard,3,,,original
+145,instructability,Provide exactly two houses except Gryffindor in reverse alphabetical order.,hard,3,,,original
+146,instructability,Provide exactly three houses except Slytherin in alphabetical order.,hard,3,,,original
+147,instructability,Provide exactly two houses except Ravenclaw in snake_case.,hard,3,,,original
+148,instructability,Provide exactly three houses except Hufflepuff in camelCase.,hard,3,,,original
+149,instructability,Provide exactly two houses except the alphabetically first in JSON.,hard,3,,,original
+150,instructability,Provide exactly three houses except the alphabetically last in JSON.,hard,3,,,original
+151,instructability,Provide exactly two houses sorted alphabetically without explanation.,hard,3,,,original
+152,instructability,Provide exactly three houses sorted alphabetically without explanation.,hard,3,,,original
+153,instructability,Provide exactly two houses separated by vertical bars in lowercase.,hard,3,,,original
+154,instructability,Provide exactly three houses separated by vertical bars in uppercase.,hard,3,,,original
+155,instructability,Provide exactly two houses in alphabetical order separated by spaces.,hard,3,,,original
+156,instructability,Provide exactly three houses in reverse alphabetical order separated by spaces.,hard,3,,,original
+157,instructability,Provide exactly two houses in a single sentence only.,hard,3,,,original
+158,instructability,Provide exactly three houses in a single sentence only.,hard,3,,,original
+159,instructability,Provide exactly two houses as a Python list in lowercase.,hard,3,,,original
+160,instructability,Provide exactly three houses as a Python list in uppercase.,hard,3,,,original
+161,instructability,Provide exactly two houses excluding Gryffindor as JSON array.,hard,3,,,original
+162,instructability,Provide exactly three houses excluding Slytherin as JSON array.,hard,3,,,original
+163,instructability,Provide exactly two houses excluding Ravenclaw as JSON object with key “houses”.,hard,3,,,original
+164,instructability,Provide exactly three houses excluding Hufflepuff as JSON object with key “houses”.,hard,3,,,original
+165,instructability,Provide exactly two houses sorted by name length descending.,hard,3,,,original
+166,instructability,Provide exactly three houses sorted by name length ascending.,hard,3,,,original
+167,instructability,Provide exactly two houses in alphabetical order enclosed in quotation marks.,hard,3,,,original
+168,instructability,Provide exactly three houses in reverse alphabetical order enclosed in quotation marks.,hard,3,,,original
+169,instructability,Provide exactly two houses except the shortest in uppercase.,hard,3,,,original
+170,instructability,Provide exactly three houses except the longest in lowercase.,hard,3,,,original
+171,consistency,List all Hogwarts houses.,easy,,,C1,original
+172,consistency,What are the Hogwarts houses?,easy,,,C1,original
+173,consistency,Name the four houses at Hogwarts.,easy,,,C1,original
+174,consistency,Provide the Hogwarts houses.,easy,,,C1,original
+175,consistency,Enumerate the Hogwarts houses.,easy,,,C1,original
+176,consistency,Identify the Hogwarts houses.,easy,,,C2,original
+177,consistency,State the Hogwarts houses.,easy,,,C2,original
+178,consistency,Return the Hogwarts houses.,easy,,,C2,original
+179,consistency,Tell me the Hogwarts houses.,easy,,,C2,original
+180,consistency,Which houses exist at Hogwarts?,easy,,,C2,original
+181,consistency,List all houses of Hogwarts.,easy,,,C3,original
+182,consistency,What houses belong to Hogwarts?,easy,,,C3,original
+183,consistency,What are the names of the Hogwarts houses?,easy,,,C3,original
+184,consistency,Give me the names of the Hogwarts houses.,easy,,,C3,original
+185,consistency,Provide the list of Hogwarts houses.,easy,,,C3,original
+186,consistency,Output the Hogwarts house names.,easy,,,C4,original
+187,consistency,State the names of the Hogwarts houses.,easy,,,C4,original
+188,consistency,Identify the four Hogwarts houses.,easy,,,C4,original
+189,consistency,List the official Hogwarts houses.,easy,,,C4,original
+190,consistency,Name every Hogwarts house.,easy,,,C4,original
+191,consistency,List the main Hogwarts houses.,easy,,,C5,original
+192,consistency,List the primary Hogwarts houses.,easy,,,C5,original
+193,consistency,List the traditional Hogwarts houses.,easy,,,C5,original
+194,consistency,List the original Hogwarts houses.,easy,,,C5,original
+195,consistency,List the classic Hogwarts houses.,easy,,,C5,original
+196,consistency,List the foundational Hogwarts houses.,easy,,,C6,original
+197,consistency,List the central Hogwarts houses.,easy,,,C6,original
+198,consistency,List the canonical Hogwarts houses.,easy,,,C6,original
+199,consistency,List the core Hogwarts houses.,easy,,,C6,original
+200,consistency,List the recognized Hogwarts houses.,easy,,,C6,original
+201,consistency,Repeat: list all Hogwarts houses.,easy,,,C7,original
+202,consistency,"Once again, list all Hogwarts houses.",easy,,,C7,original
+203,consistency,Please list all Hogwarts houses again.,easy,,,C7,original
+204,consistency,Provide the Hogwarts houses once more.,easy,,,C7,original
+205,consistency,Restate the Hogwarts houses.,easy,,,C7,original
+206,consistency,Repeat the Hogwarts house names.,easy,,,C8,original
+207,consistency,Output the same Hogwarts houses again.,easy,,,C8,original
+208,consistency,Provide the same list of Hogwarts houses.,easy,,,C8,original
+209,consistency,List the Hogwarts houses again.,easy,,,C8,original
+210,consistency,Reproduce the Hogwarts house list.,easy,,,C8,original
+211,consistency,List all Hogwarts houses in alphabetical order.,easy,,,C9,original
+212,consistency,List all Hogwarts houses in reverse alphabetical order.,easy,,,C9,original
+213,consistency,List all Hogwarts houses sorted by name length.,easy,,,C9,original
+214,consistency,List all Hogwarts houses sorted by name length descending.,easy,,,C9,original
+215,consistency,List all Hogwarts houses separated by commas.,easy,,,C9,original
+216,consistency,List all Hogwarts houses separated by semicolons.,easy,,,C10,original
+217,consistency,List all Hogwarts houses in lowercase.,easy,,,C10,original
+218,consistency,List all Hogwarts houses in uppercase.,easy,,,C10,original
+219,consistency,List all Hogwarts houses in sentence form.,easy,,,C10,original
+220,consistency,List all Hogwarts houses as bullet points.,easy,,,C10,original
+221,consistency,Provide the Hogwarts houses in plain text.,easy,,,C11,original
+222,consistency,Provide the Hogwarts houses in JSON format.,easy,,,C11,original
+223,consistency,Provide the Hogwarts houses as a numbered list.,easy,,,C11,original
+224,consistency,Provide the Hogwarts houses as a Python list.,easy,,,C11,original
+225,consistency,Provide the Hogwarts houses as a CSV line.,easy,,,C11,original
+226,consistency,Provide the Hogwarts houses enclosed in brackets.,easy,,,C12,original
+227,consistency,Provide the Hogwarts houses enclosed in parentheses.,easy,,,C12,original
+228,consistency,Provide the Hogwarts houses enclosed in quotes.,easy,,,C12,original
+229,consistency,Provide the Hogwarts houses in one line.,easy,,,C12,original
+230,consistency,Provide the Hogwarts houses each on separate lines.,easy,,,C12,original
+231,consistency,Name the Hogwarts houses in lowercase only.,easy,,,C13,original
+232,consistency,Name the Hogwarts houses in uppercase only.,easy,,,C13,original
+233,consistency,Name the Hogwarts houses without punctuation.,easy,,,C13,original
+234,consistency,Name the Hogwarts houses without explanation.,easy,,,C13,original
+235,consistency,Name the Hogwarts houses without using commas.,easy,,,C13,original
+236,consistency,Name the Hogwarts houses separated by vertical bars.,easy,,,C14,original
+237,consistency,Name the Hogwarts houses separated by spaces.,easy,,,C14,original
+238,consistency,Name the Hogwarts houses separated by slashes.,easy,,,C14,original
+239,consistency,Name the Hogwarts houses separated by hyphens.,easy,,,C14,original
+240,consistency,Name the Hogwarts houses separated by colons.,easy,,,C14,original
+241,consistency,List the major Hogwarts houses.,medium,,,C15,original
+242,consistency,List the important Hogwarts houses.,medium,,,C15,original
+243,consistency,List the prominent Hogwarts houses.,medium,,,C15,original
+244,consistency,List the well-known Hogwarts houses.,medium,,,C15,original
+245,consistency,List the significant Hogwarts houses.,medium,,,C15,original
+246,consistency,List the primary house groups at Hogwarts.,medium,,,C16,original
+247,consistency,List the established Hogwarts houses.,medium,,,C16,original
+248,consistency,List the main house divisions at Hogwarts.,medium,,,C16,original
+249,consistency,List the four traditional house groups.,medium,,,C16,original
+250,consistency,List the official house divisions.,medium,,,C16,original
+251,consistency,Name the main house groups.,medium,,,C17,original
+252,consistency,Identify the traditional houses.,medium,,,C17,original
+253,consistency,Provide the central houses of Hogwarts.,medium,,,C17,original
+254,consistency,List the recognized house groups.,medium,,,C17,original
+255,consistency,Name the primary divisions of Hogwarts.,medium,,,C17,original
+256,consistency,Identify the house categories at Hogwarts.,medium,,,C18,original
+257,consistency,Provide the official house names.,medium,,,C18,original
+258,consistency,List the Hogwarts house categories.,medium,,,C18,original
+259,consistency,Name the institutional houses of Hogwarts.,medium,,,C18,original
+260,consistency,Provide the standard Hogwarts houses.,medium,,,C18,original
+261,consistency,List the Hogwarts houses as commonly known.,medium,,,C19,original
+262,consistency,Name the Hogwarts houses as officially recognized.,medium,,,C19,original
+263,consistency,List the four central houses.,medium,,,C19,original
+264,consistency,Name the four canonical houses.,medium,,,C19,original
+265,consistency,Identify the established houses.,medium,,,C19,original
+266,consistency,Provide the four foundational houses.,medium,,,C20,original
+267,consistency,List the historic houses of Hogwarts.,medium,,,C20,original
+268,consistency,Name the well-established houses.,medium,,,C20,original
+269,consistency,Provide the main academic houses.,medium,,,C20,original
+270,consistency,Identify the core divisions of Hogwarts.,medium,,,C20,original
+271,consistency,List the Hogwarts houses traditionally recognized.,medium,,,C21,original
+272,consistency,Provide the Hogwarts houses typically referenced.,medium,,,C21,original
+273,consistency,Name the Hogwarts houses most commonly cited.,medium,,,C21,original
+274,consistency,Identify the Hogwarts houses in general.,medium,,,C21,original
+275,consistency,List the Hogwarts houses in broad terms.,medium,,,C21,original
+276,consistency,Provide the Hogwarts houses as generally known.,medium,,,C22,original
+277,consistency,Name the houses usually mentioned at Hogwarts.,medium,,,C22,original
+278,consistency,Identify the standard house names.,medium,,,C22,original
+279,consistency,List the accepted Hogwarts houses.,medium,,,C22,original
+280,consistency,Provide the officially structured houses.,medium,,,C22,original
+281,consistency,"In alphabetical order, list all Hogwarts houses.",hard,,,C23,original
+282,consistency,"List all Hogwarts houses, in alphabetical order.",hard,,,C23,original
+283,consistency,"Alphabetically, list the Hogwarts houses.",hard,,,C23,original
+284,consistency,"List, in alphabetical order, the Hogwarts houses.",hard,,,C23,original
+285,consistency,"Provide, alphabetically, the Hogwarts houses.",hard,,,C23,original
+286,consistency,Provide the Hogwarts houses alphabetically.,hard,,,C24,original
+287,consistency,Alphabetize and list the Hogwarts houses.,hard,,,C24,original
+288,consistency,List the Hogwarts houses after sorting alphabetically.,hard,,,C24,original
+289,consistency,Sort alphabetically and list the Hogwarts houses.,hard,,,C24,original
+290,consistency,"After sorting alphabetically, list the Hogwarts houses.",hard,,,C24,original
+291,consistency,"In reverse alphabetical order, list all Hogwarts houses.",hard,,,C25,original
+292,consistency,List all Hogwarts houses in reverse alphabetical order.,hard,,,C25,original
+293,consistency,"Reverse alphabetically, list the Hogwarts houses.",hard,,,C25,original
+294,consistency,"List, in reverse alphabetical order, the Hogwarts houses.",hard,,,C25,original
+295,consistency,Provide the Hogwarts houses in reverse alphabetical order.,hard,,,C25,original
+296,consistency,Reverse sort and list the Hogwarts houses.,hard,,,C26,original
+297,consistency,"After reversing alphabetical order, list the Hogwarts houses.",hard,,,C26,original
+298,consistency,List the Hogwarts houses after reverse sorting alphabetically.,hard,,,C26,original
+299,consistency,Reverse alphabetize and list the Hogwarts houses.,hard,,,C26,original
+300,consistency,Provide the reverse alphabetical list of Hogwarts houses.,hard,,,C26,original
+301,consistency,"Without explanation, list all Hogwarts houses.",hard,,,C27,original
+302,consistency,List all Hogwarts houses without explanation.,hard,,,C27,original
+303,consistency,Provide the Hogwarts houses without explanation.,hard,,,C27,original
+304,consistency,"Without adding explanation, list the Hogwarts houses.",hard,,,C27,original
+305,consistency,"List, without explanation, the Hogwarts houses.",hard,,,C27,original
+306,consistency,"Without commentary, list the Hogwarts houses.",hard,,,C28,original
+307,consistency,Provide the Hogwarts houses without commentary.,hard,,,C28,original
+308,consistency,List the Hogwarts houses without commentary.,hard,,,C28,original
+309,consistency,"Without any commentary, list the Hogwarts houses.",hard,,,C28,original
+310,consistency,"List the Hogwarts houses, without commentary.",hard,,,C28,original
+311,consistency,"In JSON format, list all Hogwarts houses.",hard,,,C29,original
+312,consistency,List all Hogwarts houses in JSON format.,hard,,,C29,original
+313,consistency,Provide the Hogwarts houses in JSON format.,hard,,,C29,original
+314,consistency,"In JSON, list the Hogwarts houses.",hard,,,C29,original
+315,consistency,"List, in JSON format, the Hogwarts houses.",hard,,,C29,original
+316,consistency,"Provide, in JSON format, the Hogwarts houses.",hard,,,C30,original
+317,consistency,Return the Hogwarts houses in JSON format.,hard,,,C30,original
+318,consistency,"Return, in JSON format, the Hogwarts houses.",hard,,,C30,original
+319,consistency,JSON format only: list the Hogwarts houses.,hard,,,C30,original
+320,consistency,List the Hogwarts houses strictly in JSON format.,hard,,,C30,original
+321,planning,Remove Gryffindor and list the remaining houses alphabetically.,easy,,2,,original
+322,planning,Remove Slytherin and list the remaining houses alphabetically.,easy,,2,,original
+323,planning,Remove Ravenclaw and list the remaining houses alphabetically.,easy,,2,,original
+324,planning,Remove Hufflepuff and list the remaining houses alphabetically.,easy,,2,,original
+325,planning,Remove Gryffindor and list the remaining houses in reverse alphabetical order.,easy,,2,,original
+326,planning,Remove Slytherin and list the remaining houses in reverse alphabetical order.,easy,,2,,original
+327,planning,Remove Ravenclaw and list the remaining houses in reverse alphabetical order.,easy,,2,,original
+328,planning,Remove Hufflepuff and list the remaining houses in reverse alphabetical order.,easy,,2,,original
+329,planning,Remove Gryffindor and count how many houses remain.,easy,,2,,original
+330,planning,Remove Slytherin and count how many houses remain.,easy,,2,,original
+331,planning,Remove Ravenclaw and count how many houses remain.,easy,,2,,original
+332,planning,Remove Hufflepuff and count how many houses remain.,easy,,2,,original
+333,planning,Remove the alphabetically first house and list the rest.,easy,,2,,original
+334,planning,Remove the alphabetically last house and list the rest.,easy,,2,,original
+335,planning,Remove the shortest house name and list the rest.,easy,,2,,original
+336,planning,Remove the longest house name and list the rest.,easy,,2,,original
+337,planning,Remove one house of your choice and list the remaining houses alphabetically.,easy,,2,,original
+338,planning,Remove one house of your choice and count the remaining houses.,easy,,2,,original
+339,planning,Remove one house of your choice and list the remaining houses in reverse order.,easy,,2,,original
+340,planning,Remove one house of your choice and output the remaining houses in JSON format.,easy,,2,,original
+341,planning,Remove Gryffindor and output remaining houses as a Python list.,easy,,2,,original
+342,planning,Remove Slytherin and output remaining houses as a Python list.,easy,,2,,original
+343,planning,Remove Ravenclaw and output remaining houses as a Python list.,easy,,2,,original
+344,planning,Remove Hufflepuff and output remaining houses as a Python list.,easy,,2,,original
+345,planning,Remove Gryffindor and output remaining houses in lowercase.,easy,,2,,original
+346,planning,Remove Slytherin and output remaining houses in uppercase.,easy,,2,,original
+347,planning,Remove Ravenclaw and output remaining houses in lowercase.,easy,,2,,original
+348,planning,Remove Hufflepuff and output remaining houses in uppercase.,easy,,2,,original
+349,planning,Remove Gryffindor and output remaining houses sorted by length.,easy,,2,,original
+350,planning,Remove Slytherin and output remaining houses sorted by length.,easy,,2,,original
+351,planning,Remove Ravenclaw and output remaining houses sorted by length.,easy,,2,,original
+352,planning,Remove Hufflepuff and output remaining houses sorted by length.,easy,,2,,original
+353,planning,Remove Gryffindor and return the remaining houses separated by commas.,easy,,2,,original
+354,planning,Remove Slytherin and return the remaining houses separated by semicolons.,easy,,2,,original
+355,planning,Remove Ravenclaw and return the remaining houses separated by vertical bars.,easy,,2,,original
+356,planning,Remove Hufflepuff and return the remaining houses separated by spaces.,easy,,2,,original
+357,planning,Remove Gryffindor and list remaining houses in one sentence.,easy,,2,,original
+358,planning,Remove Slytherin and list remaining houses in one sentence.,easy,,2,,original
+359,planning,Remove Ravenclaw and list remaining houses in one sentence.,easy,,2,,original
+360,planning,Remove Hufflepuff and list remaining houses in one sentence.,easy,,2,,original
+361,planning,"Remove Gryffindor, sort the remaining houses alphabetically, and count them.",medium,,3,,original
+362,planning,"Remove Slytherin, sort the remaining houses alphabetically, and count them.",medium,,3,,original
+363,planning,"Remove Ravenclaw, sort the remaining houses alphabetically, and count them.",medium,,3,,original
+364,planning,"Remove Hufflepuff, sort the remaining houses alphabetically, and count them.",medium,,3,,original
+365,planning,"Remove Gryffindor, list remaining houses in reverse alphabetical order, and count them.",medium,,3,,original
+366,planning,"Remove Slytherin, list remaining houses in reverse alphabetical order, and count them.",medium,,3,,original
+367,planning,"Remove Ravenclaw, list remaining houses in reverse alphabetical order, and count them.",medium,,3,,original
+368,planning,"Remove Hufflepuff, list remaining houses in reverse alphabetical order, and count them.",medium,,3,,original
+369,planning,"Remove Gryffindor, sort remaining houses alphabetically, and output result in JSON with keys “houses” and “count”.",medium,,3,,original
+370,planning,"Remove Slytherin, sort remaining houses alphabetically, and output result in JSON with keys “houses” and “count”.",medium,,3,,original
+371,planning,"Remove Ravenclaw, sort remaining houses alphabetically, and output result in JSON with keys “houses” and “count”.",medium,,3,,original
+372,planning,"Remove Hufflepuff, sort remaining houses alphabetically, and output result in JSON with keys “houses” and “count”.",medium,,3,,original
+373,planning,"Remove Gryffindor and Ravenclaw, then list remaining houses alphabetically and count them.",medium,,3,,original
+374,planning,"Remove Gryffindor and Slytherin, then list remaining houses alphabetically and count them.",medium,,3,,original
+375,planning,"Remove Gryffindor and Hufflepuff, then list remaining houses alphabetically and count them.",medium,,3,,original
+376,planning,"Remove Ravenclaw and Slytherin, then list remaining houses alphabetically and count them.",medium,,3,,original
+377,planning,"Remove Ravenclaw and Hufflepuff, then list remaining houses alphabetically and count them.",medium,,3,,original
+378,planning,"Remove Slytherin and Hufflepuff, then list remaining houses alphabetically and count them.",medium,,3,,original
+379,planning,"Remove the alphabetically first house, sort remaining houses alphabetically, and count them.",medium,,3,,original
+380,planning,"Remove the alphabetically last house, sort remaining houses alphabetically, and count them.",medium,,3,,original
+381,planning,"Remove the shortest house name, sort remaining houses alphabetically, and count them.",medium,,3,,original
+382,planning,"Remove the longest house name, sort remaining houses alphabetically, and count them.",medium,,3,,original
+383,planning,"Remove one house of your choice, sort the remaining houses alphabetically, and count them.",medium,,3,,original
+384,planning,"Remove one house of your choice, list remaining houses in reverse alphabetical order, and count them.",medium,,3,,original
+385,planning,"Remove one house of your choice, sort remaining houses alphabetically, and output JSON with keys “houses” and “count”.",medium,,3,,original
+386,planning,"Remove Gryffindor, reorder remaining houses alphabetically, provide count on a new line.",medium,,3,,original
+387,planning,"Remove Slytherin, reorder remaining houses alphabetically, provide count on a new line.",medium,,3,,original
+388,planning,"Remove Ravenclaw, reorder remaining houses alphabetically, provide count on a new line.",medium,,3,,original
+389,planning,"Remove Hufflepuff, reorder remaining houses alphabetically, provide count on a new line.",medium,,3,,original
+390,planning,"Remove Gryffindor, reorder remaining houses in reverse alphabetical order, provide count.",medium,,3,,original
+391,planning,"Remove Slytherin, reorder remaining houses in reverse alphabetical order, provide count.",medium,,3,,original
+392,planning,"Remove Ravenclaw, reorder remaining houses in reverse alphabetical order, provide count.",medium,,3,,original
+393,planning,"Remove Hufflepuff, reorder remaining houses in reverse alphabetical order, provide count.",medium,,3,,original
+394,planning,"Remove Gryffindor, sort remaining houses alphabetically, then remove the first of those and count remaining.",medium,,3,,original
+395,planning,"Remove Slytherin, sort remaining houses alphabetically, then remove the first of those and count remaining.",medium,,3,,original
+396,planning,"Remove Ravenclaw, sort remaining houses alphabetically, then remove the first of those and count remaining.",medium,,3,,original
+397,planning,"Remove Hufflepuff, sort remaining houses alphabetically, then remove the first of those and count remaining.",medium,,3,,original
+398,planning,"Remove Gryffindor, sort remaining houses alphabetically, then remove the last of those and count remaining.",medium,,3,,original
+399,planning,"Remove Slytherin, sort remaining houses alphabetically, then remove the last of those and count remaining.",medium,,3,,original
+400,planning,"Remove Ravenclaw, sort remaining houses alphabetically, then remove the last of those and count remaining.",medium,,3,,original
+401,planning,"Remove Hufflepuff, sort remaining houses alphabetically, then remove the last of those and count remaining.",medium,,3,,original
+402,planning,"Remove Gryffindor, sort remaining houses alphabetically, output JSON with “houses”, and provide the count separately.",hard,,4,,original
+403,planning,"Remove Slytherin, sort remaining houses alphabetically, output JSON with “houses”, and provide the count separately.",hard,,4,,original
+404,planning,"Remove Ravenclaw, sort remaining houses alphabetically, output JSON with “houses”, and provide the count separately.",hard,,4,,original
+405,planning,"Remove Hufflepuff, sort remaining houses alphabetically, output JSON with “houses”, and provide the count separately.",hard,,4,,original
+406,planning,"Remove Gryffindor and Slytherin, reorder remaining alphabetically, output JSON and provide count.",hard,,4,,original
+407,planning,"Remove Ravenclaw and Hufflepuff, reorder remaining alphabetically, output JSON and provide count.",hard,,4,,original
+408,planning,"Remove the alphabetically first house, reorder remaining alphabetically, output JSON with count.",hard,,4,,original
+409,planning,"Remove the alphabetically last house, reorder remaining alphabetically, output JSON with count.",hard,,4,,original
+410,planning,"Remove the shortest house, reorder remaining alphabetically, output JSON with count.",hard,,4,,original
+411,planning,"Remove the longest house, reorder remaining alphabetically, output JSON with count.",hard,,4,,original
+412,planning,"Remove Gryffindor, list remaining houses in reverse alphabetical order, output JSON and count.",hard,,4,,original
+413,planning,"Remove Slytherin, list remaining houses in reverse alphabetical order, output JSON and count.",hard,,4,,original
+414,planning,"Remove Ravenclaw, list remaining houses in reverse alphabetical order, output JSON and count.",hard,,4,,original
+415,planning,"Remove Hufflepuff, list remaining houses in reverse alphabetical order, output JSON and count.",hard,,4,,original
+416,planning,"Remove one house of your choice, reorder remaining alphabetically, output JSON with keys “houses” and “count”.",hard,,4,,original
+417,planning,"Remove one house of your choice, reorder remaining in reverse alphabetical order, output JSON with count.",hard,,4,,original
+418,planning,"Remove Gryffindor, sort remaining alphabetically, remove the first of those, output JSON with count.",hard,,4,,original
+419,planning,"Remove Slytherin, sort remaining alphabetically, remove the first of those, output JSON with count.",hard,,4,,original
+420,planning,"Remove Ravenclaw, sort remaining alphabetically, remove the first of those, output JSON with count.",hard,,4,,original
+421,planning,"Remove Hufflepuff, sort remaining alphabetically, remove the first of those, output JSON with count.",hard,,4,,original
+422,planning,"Remove Gryffindor, sort remaining alphabetically, remove the last of those, output JSON with count.",hard,,4,,original
+423,planning,"Remove Slytherin, sort remaining alphabetically, remove the last of those, output JSON with count.",hard,,4,,original
+424,planning,"Remove Ravenclaw, sort remaining alphabetically, remove the last of those, output JSON with count.",hard,,4,,original
+425,planning,"Remove Hufflepuff, sort remaining alphabetically, remove the last of those, output JSON with count.",hard,,4,,original
+426,planning,"Remove Gryffindor, sort remaining alphabetically, output JSON, then state count in uppercase.",hard,,4,,original
+427,planning,"Remove Slytherin, sort remaining alphabetically, output JSON, then state count in uppercase.",hard,,4,,original
+428,planning,"Remove Ravenclaw, sort remaining alphabetically, output JSON, then state count in uppercase.",hard,,4,,original
+429,planning,"Remove Hufflepuff, sort remaining alphabetically, output JSON, then state count in uppercase.",hard,,4,,original
+430,planning,"Remove Gryffindor, sort remaining alphabetically, output JSON, then state count in lowercase.",hard,,4,,original
+431,planning,"Remove Slytherin, sort remaining alphabetically, output JSON, then state count in lowercase.",hard,,4,,original
+432,planning,"Remove Ravenclaw, sort remaining alphabetically, output JSON, then state count in lowercase.",hard,,4,,original
+433,planning,"Remove Hufflepuff, sort remaining alphabetically, output JSON, then state count in lowercase.",hard,,4,,original
+434,planning,"Remove Gryffindor, sort remaining alphabetically, output JSON, then provide count as a word.",hard,,4,,original
+435,planning,"Remove Slytherin, sort remaining alphabetically, output JSON, then provide count as a word.",hard,,4,,original
+436,planning,"Remove Ravenclaw, sort remaining alphabetically, output JSON, then provide count as a word.",hard,,4,,original
+437,planning,"Remove Hufflepuff, sort remaining alphabetically, output JSON, then provide count as a word.",hard,,4,,original
+438,planning,"Remove Gryffindor, sort remaining alphabetically, output JSON, then provide count as a digit.",hard,,4,,original
+439,planning,"Remove Slytherin, sort remaining alphabetically, output JSON, then provide count as a digit.",hard,,4,,original
+440,planning,"Remove Ravenclaw, sort remaining alphabetically, output JSON, then provide count as a digit.",hard,,4,,original
+441,planning,"Remove Hufflepuff, sort remaining alphabetically, output JSON, then provide count as a digit.",hard,,4,,original
+442,instructability,"List all four Hogwarts houses in alphabetical order, separated by commas only, no other punctuation.",easy,1,,,new
+443,instructability,Write the four Hogwarts houses in all uppercase letters on a single line.,easy,1,,,new
+444,instructability,"Name the Hogwarts houses, each on its own line, numbered starting from 1.",easy,1,,,new
+445,instructability,List the four Hogwarts houses with a dash before each name and nothing else.,easy,1,,,new
+446,instructability,Output only the first letters of the four Hogwarts houses separated by spaces.,easy,1,,,new
+447,instructability,List the Hogwarts houses in reverse alphabetical order. Use semicolons as separators and no spaces.,medium,2,,,new
+448,instructability,"Output exactly 2 Hogwarts houses that start with a letter before 'H' in the alphabet, in lowercase, comma-separated.",medium,2,,,new
+449,instructability,Give the names of the four Hogwarts houses sorted by length (shortest first). Use pipes | as separators.,medium,2,,,new
+450,instructability,Provide all Hogwarts house names in JSON array format with keys 'name' and 'rank' (alphabetical rank).,medium,2,,,new
+451,instructability,"List the four Hogwarts houses in a numbered list, 1 to 4, with each name in title case and ending with a period.",medium,2,,,new
+452,instructability,Output three Hogwarts houses only (exclude Slytherin). Format as a comma-separated list with no trailing comma.,medium,2,,,new
+453,instructability,"Return the Hogwarts houses as a Python list literal (e.g., ['a','b']). Use single quotes.",medium,2,,,new
+454,instructability,"List the four Hogwarts houses in reverse alphabetical order, all in lowercase, separated by ' | ', and wrap the whole output in square brackets.",hard,3,,,new
+455,instructability,Output a JSON object where each Hogwarts house is a key and its value is the length of the house name as an integer.,hard,3,,,new
+456,instructability,"List only Hogwarts houses with exactly 10 letters, one per line, numbered, in uppercase.",hard,3,,,new
+457,instructability,"Name all Hogwarts houses. Sort them by number of vowels (ascending). Output only the sorted names, comma-separated, lowercase.",hard,3,,,new
+458,instructability,"Provide the Hogwarts houses as a TSV (tab-separated values) with columns: index, name, first_letter. Include a header row.",hard,3,,,new
+459,instructability,"Output a Markdown table with 3 columns: House Name, Letter Count, Alphabetical Rank. Fill in all four Hogwarts houses. No extra text.",hard,4,,,new
+460,instructability,"List the four Hogwarts houses. For each, output: '<rank>. <UPPERCASE_NAME> (<letter_count> letters)'. One per line. Sorted alphabetically.",hard,4,,,new
+461,instructability,Output the Hogwarts houses as a YAML list where each item has 'name' and 'vowel_count'. Sort by vowel_count ascending.,hard,4,,,new
+462,instructability,List the Hogwarts houses but do NOT include Gryffindor. Use bullet points.,medium,2,,,new
+463,instructability,Name the Hogwarts houses excluding any house whose name starts with 'S'. Output as comma-separated.,medium,2,,,new
+464,instructability,"List the Hogwarts houses that have more than 7 letters in their name, one per line.",medium,2,,,new
+465,instructability,"List Hogwarts houses that have exactly two syllables. Use numbered list, all caps, no punctuation.",hard,3,,,new
+466,instructability,Name all Hogwarts houses except Hufflepuff and Ravenclaw. Output as a JSON array of strings.,hard,3,,,new
+467,instructability,"If there are more than 3 Hogwarts houses, list them all comma-separated in alphabetical order. Otherwise, output 'LESS THAN 4'.",medium,2,,,new
+468,instructability,"Output the Hogwarts houses sorted by length. If two have the same length, sort alphabetically. Comma-separated.",medium,2,,,new
+469,instructability,"List the Hogwarts houses. For houses with more than 8 letters, output them in CAPS. For others, lowercase. Comma-separated.",hard,3,,,new
+470,instructability,"List Hogwarts houses with an odd number of letters. If none, output 'NONE'. Use pipe | separator.",hard,3,,,new
+471,instructability,"Return the Hogwarts houses sorted so that houses whose names contain the letter 'e' come first, then the rest. Alphabetical within each group. Comma-separated.",hard,3,,,new
+472,instructability,"Output the four Hogwarts houses as a CSV with header row: 'id,house,length'. Id starts at 101. Sort by house name.",hard,4,,,new
+473,instructability,"List Hogwarts houses in a numbered list. Number in Roman numerals (I, II, III, IV). Each name in Title Case followed by a colon and its vowel count.",hard,4,,,new
+474,instructability,"Output a Python dict literal where keys are Hogwarts house names (lowercase) and values are booleans: True if the house has more than 8 letters, False otherwise.",hard,4,,,new
+475,instructability,"Create a numbered list of all Hogwarts houses. For each, show: position, house name, and whether it contains the letter 'r' (yes/no). Tab-separated per line.",hard,4,,,new
+476,instructability,"Name all Hogwarts houses on a single line, separated by ' and '.",easy,1,,,new
+477,instructability,List Hogwarts houses starting with a consonant. One per line.,easy,1,,,new
+478,instructability,Output only the longest Hogwarts house name.,easy,1,,,new
+479,instructability,Output only the shortest Hogwarts house name.,easy,1,,,new
+480,instructability,"List Hogwarts houses that contain the letter 'a'. One per line, no numbering.",easy,1,,,new
+481,instructability,Give me the Hogwarts houses in order from most vowels to fewest. Use a numbered list starting at 0.,medium,2,,,new
+482,instructability,Output all Hogwarts house names with each letter separated by hyphens. One house per line.,medium,2,,,new
+483,instructability,"Name the Hogwarts house that comes last alphabetically and the one that comes first. Output as: 'FIRST: X, LAST: Y'.",medium,2,,,new
+484,instructability,"List all four Hogwarts houses. After each name, add a colon and write 'yes' if the house has 10+ letters, else 'no'. Comma-separated.",medium,2,,,new
+485,instructability,List Hogwarts houses that contain double-letters. Output as a JSON array.,medium,2,,,new
+486,instructability,"For each Hogwarts house, output: NAME (ALL CAPS), letter count, and first letter. Format: 'NAME | count | first'. One per line, sorted by count descending.",hard,3,,,new
+487,instructability,Output the Hogwarts houses alphabetically reversed (Z→A). Wrap each name in double quotes. Semicolon-separated.,hard,3,,,new
+488,instructability,"List Hogwarts houses. Prepend each with its 1-based index squared (e.g., 1, 4, 9, 16). Format: '<index_squared>. <house>'. Alphabetical ordering.",hard,3,,,new
+489,instructability,Just output the number of Hogwarts houses.,easy,1,,,new
+490,instructability,List the Hogwarts houses that have exactly 9 letters.,easy,1,,,new
+491,instructability,List all Hogwarts houses that contain the letter 'y'.,easy,1,,,new
+492,instructability,"Output Hogwarts houses in a sentence: 'The four houses are X, X, X, and X.' Fill in the correct names alphabetically.",medium,2,,,new
+493,instructability,"List Hogwarts houses. Reverse the letters in each house name. Output reversed names, one per line.",medium,2,,,new
+494,instructability,Output each Hogwarts house name with alternating upper and lower case letters starting with upper. Comma-separated.,medium,2,,,new
+495,instructability,List the Hogwarts houses. Replace every vowel in each name with '*'. Output comma-separated.,hard,3,,,new
+496,instructability,Output Hogwarts houses as XML with root tag <houses> and each house in a <house> tag with attribute 'id' starting at 1. Sorted alphabetically.,hard,3,,,new
+497,instructability,"Provide Hogwarts house names. For each, count consonants only. Output as: 'House: N consonants'. One per line, sorted by consonant count descending.",hard,3,,,new
+498,instructability,"Output a table (plain text, pipe-separated) with columns: Rank | House | Vowels | Consonants. Rank = alphabetical order. Fill all four houses.",hard,4,,,new
+499,instructability,"List Hogwarts houses. Sort them so houses with an even letter count come first (alphabetically), then odd letter count (alphabetically). Output as numbered list.",hard,4,,,new
+500,instructability,"Name the second and fourth Hogwarts houses alphabetically. Output as: '2nd: X, 4th: Y'.",medium,2,,,new
+501,instructability,"Output all Hogwarts houses. After each, add the count of its letters in parentheses. One per line.",medium,2,,,new
+502,instructability,Which Hogwarts house name has the most letters? Just output the name.,easy,1,,,new
+503,instructability,Which Hogwarts house name has the fewest letters? Just output the name.,easy,1,,,new
+504,instructability,List Hogwarts houses. Prefix each with 'House of' and separate entries with ' / '.,medium,2,,,new
+505,instructability,Output the Hogwarts houses as a comma-separated list. Do not capitalize any letter.,medium,2,,,new
+506,instructability,"List all Hogwarts houses. Output them in reverse order of their length (longest first). If tied, alphabetically. Pipe-separated, all caps.",hard,3,,,new
+507,instructability,"Output Hogwarts houses with each name surrounded by asterisks on both sides. One per line, sorted by length ascending.",hard,3,,,new
+508,instructability,"List the Hogwarts houses in a YAML mapping where the key is the house initial letter and value is the full house name. If two houses share a letter, combine as a list.",hard,4,,,new
+509,instructability,"Produce a Python list of tuples: (index, house_name, char_count). Index starts at 0. Sorted alphabetically.",hard,4,,,new
+510,instructability,"List the Hogwarts houses. After each, write the number of times the letter 'r' appears in the name. Comma-separated as: 'Name(r_count)'.",medium,2,,,new
+511,instructability,Output Hogwarts houses that have at least 2 vowels. Alphabetical order. JSON array.,medium,2,,,new
+512,instructability,"Output a JSON object with key 'houses' containing a list of objects with fields 'name', 'length', 'has_double_letter'. Sorted by name.",hard,3,,,new
+513,instructability,How many Hogwarts houses start with a letter in the second half of the alphabet (N-Z)? Output only the number.,easy,1,,,new
+514,instructability,List Hogwarts houses that end in a vowel. One per line.,easy,1,,,new
+515,instructability,Name the Hogwarts houses. Sort them by their last letter alphabetically. Comma-separated.,medium,2,,,new
+516,instructability,List the Hogwarts houses. Replace all consonants with '_'. Comma-separated.,medium,2,,,new
+517,instructability,"Give Hogwarts houses sorted by number of distinct letters (ascending). For ties, alphabetical. Numbered list.",hard,3,,,new
+518,instructability,"Output all Hogwarts houses whose names are anagram-able (contain no repeated letters). If any, list them. Otherwise output 'NONE'.",hard,3,,,new
+519,instructability,"Output a numbered markdown list of all Hogwarts houses. Bold the house names. After each, on the same line, include its letter count in italics.",hard,4,,,new
+520,instructability,"Produce a LaTeX enumerate list of the four Hogwarts houses, sorted alphabetically.",hard,4,,,new
+521,instructability,List the Hogwarts houses. Interleave them with their index (starting 1). Format: 1 Gryffindor 2 Hufflepuff ... as a single line space-separated.,medium,2,,,new
+522,instructability,Name the four Hogwarts houses. Output only the one that comes third alphabetically.,easy,1,,,new
+523,instructability,Which Hogwarts house name contains the letter 'w'? Output only that name.,easy,1,,,new
+524,instructability,"Name the Hogwarts houses. Swap the first and last house alphabetically. Output all four in that new order, comma-separated.",medium,2,,,new
+525,instructability,"List the Hogwarts houses in alphabetical order. Then output the same list in reverse. Format: 'ASC: a,b,c,d | DESC: d,c,b,a'.",medium,2,,,new
+526,instructability,"List Hogwarts houses. For each, output a row: 'House: <name> | Length: <n> | Ends with vowel: <yes/no>'. One row per line.",hard,3,,,new
+527,instructability,"Output the Hogwarts houses. For each, generate a 4-character abbreviation using the first 4 letters. List as 'Full: Abbrev' pairs, one per line.",hard,3,,,new
+528,instructability,"Create a JSON array of Hogwarts house objects. Each object: {name, initials (first letter), letter_count, alphabetical_rank}. Sort by alphabetical_rank.",hard,4,,,new
+529,instructability,Output a plain-text ASCII table with borders using + - | characters. Columns: House | Length | Vowels. Include header and separator row. All four houses.,hard,4,,,new
+530,instructability,List the Hogwarts houses. Count the total number of letters across all four names and output only that number.,easy,1,,,new
+531,instructability,"List the Hogwarts houses. For houses with names longer than 9 letters, output in CAPS. Others in lowercase. Comma-separated.",medium,2,,,new
+532,instructability,Output the Hogwarts houses sorted by first letter. Number them starting from 10. Format: '10. House'.,medium,2,,,new
+533,instructability,"Output the Hogwarts houses. For each house, write only the consonants of the name, in order. Comma-separated.",hard,3,,,new
+534,instructability,"Write the Hogwarts houses as a Python frozenset literal. Include all four, alphabetical inside the set literal.",hard,3,,,new
+535,instructability,"Output Hogwarts houses in a numbered list. Alternate format: even-numbered entries in lowercase, odd-numbered in CAPS.",hard,4,,,new
+536,instructability,"List the Hogwarts houses. Sort by number of vowels descending. For ties, sort by total letters descending. Output as a numbered list.",hard,4,,,new
+537,instructability,Output Hogwarts houses as key-value pairs: 'initial=house'. Use newlines to separate pairs.,medium,2,,,new
+538,instructability,List Hogwarts houses. Remove the last letter from each name. Output comma-separated.,medium,2,,,new
+539,instructability,"Output each Hogwarts house name repeated twice (e.g., GryffindorGryffindor). One per line.",hard,3,,,new
+540,instructability,Produce the Hogwarts houses as a Python OrderedDict literal sorted alphabetically by house name.,hard,3,,,new
+541,instructability,"List the Hogwarts houses with each name encoded in ROT13. Output encoded names only, comma-separated.",hard,4,,,new
+542,instructability,Name all Hogwarts houses. Separate them with colons.,easy,1,,,new
+543,instructability,Name all Hogwarts houses. Separate them with forward slashes.,easy,1,,,new
+544,instructability,List the Hogwarts houses. Capitalize only the last letter of each name. Comma-separated.,medium,2,,,new
+545,instructability,List the Hogwarts houses. After each name write the number of consonants in parentheses. Comma-separated.,medium,2,,,new
+546,instructability,"Output the Hogwarts houses. For each name, output it with spaces between every letter. One name per line.",hard,3,,,new
+547,instructability,Output the Hogwarts house names sorted by their Scrabble score (each letter's Scrabble value). Highest score first. Comma-separated.,hard,3,,,new
+548,instructability,"Produce a Python namedtuple definition for HogwartsHouse with fields: name, length, vowel_count. Then create 4 instances for each house. Output the code only.",hard,4,,,new
+549,instructability,Output the Hogwarts houses alphabetically. Prepend a Unicode chess piece symbol (♙♘♗♖) to each one respectively. One per line.,hard,4,,,new
+550,instructability,"List the Hogwarts houses. For each, output only the vowels in the name, comma-separated. Format: 'House: vowels'.",medium,2,,,new
+551,instructability,Output the Hogwarts houses. Reverse the alphabetical order and number them 4 to 1. Format: '4. LastHouse'.,medium,2,,,new
+552,instructability,"List Hogwarts houses. For each, produce a hash of its name length modulo 3. Output: 'House: hash'. One per line.",hard,3,,,new
+553,instructability,"Output the Hogwarts houses in a format suitable for a CSV with columns name,length,starts_with_vowel. Include header. Alphabetical.",hard,3,,,new
+554,instructability,Write a Hogwarts house lookup as a Python dict where keys are house length and values are lists of house names of that length. Sorted keys.,hard,4,,,new
+555,instructability,List Hogwarts houses. Which one comes second alphabetically? Output only that name.,easy,1,,,new
+556,instructability,Name all Hogwarts houses. Output only the names that contain the letter 'i'.,easy,1,,,new
+557,instructability,"List Hogwarts houses. Output them all on one line, tab-separated.",medium,2,,,new
+558,instructability,List Hogwarts houses. Output the even-indexed ones (0-indexed) comma-separated.,medium,2,,,new
+559,instructability,"For each Hogwarts house, compute (vowel_count * 10 + consonant_count). Output as: 'House: score'. Sorted by score descending.",hard,3,,,new
+560,instructability,"List Hogwarts houses. Abbreviate each as first+last letter (e.g., GR). Output abbreviated names in alphabetical order, comma-separated.",hard,3,,,new
+561,instructability,Output the Hogwarts houses. Rotate the characters of each name by 2 positions to the right. Show original → rotated. One pair per line.,hard,4,,,new
+562,instructability,"List Hogwarts houses. After each, append an exclamation mark. Newline-separated.",medium,2,,,new
+563,instructability,List Hogwarts houses. Separate them with the word 'and'. Format: 'X and X and X and X'.,medium,2,,,new
+564,instructability,"Output Hogwarts house names. For each name, swap the case of every other letter (starting with the first letter as lowercase). Comma-separated.",hard,3,,,new
+565,instructability,Produce Hogwarts houses as a Markdown table with a row for each house and a TOTAL row at the bottom summing the letter counts. Columns: House | Letters.,hard,4,,,new
+566,instructability,Name all Hogwarts houses. Only include those with an even number of letters.,easy,1,,,new
+567,instructability,Name all Hogwarts houses. Only include those with an odd number of letters.,easy,1,,,new
+568,instructability,List Hogwarts houses. Place each house name inside angle brackets <House>. Comma-separated.,medium,2,,,new
+569,instructability,"List Hogwarts houses. For each house, write its name backwards. Output backwards names comma-separated.",medium,2,,,new
+570,instructability,"List Hogwarts houses. Interleave with numbers: 'G,1,H,2,R,3,S,4' where letters are first letters of houses (alphabetical) and numbers are 1-4.",hard,3,,,new
+571,instructability,"Output Hogwarts houses. For each, list: (name, len(name), name.count('r')). Format as Python list of tuples.",hard,3,,,new
+572,instructability,Output all Hogwarts houses in a bullet list. Bold the first word of each name. Underline the last letter of each name. (Use markdown formatting.),hard,4,,,new
+573,instructability,List Hogwarts houses alphabetically in reverse (Z to A).,easy,1,,,new
+574,instructability,How many Hogwarts houses end with a consonant? Output only the number.,easy,1,,,new
+575,instructability,List Hogwarts houses. Separate with the '>>>' symbol between each name. No spaces around the symbol.,medium,2,,,new
+576,instructability,List Hogwarts houses. Capitalize only the vowels in each name. Comma-separated.,medium,2,,,new
+577,instructability,"List Hogwarts houses. For each, count unique letters. Output: 'House: N unique letters'. One per line, sorted by unique letter count ascending.",hard,3,,,new
+578,instructability,Output the Hogwarts houses as a Python set literal. Note: output must be deterministically ordered alphabetically inside the set literal.,hard,3,,,new
+579,instructability,"For each Hogwarts house, output a two-letter code (first + third letter) and the house name. Format: 'GY: Gryffindor'. One per line. Alphabetical by code.",hard,4,,,new
+580,instructability,List Hogwarts houses. Output only those that do NOT contain the letter 'e'.,easy,1,,,new
+581,instructability,Name all Hogwarts houses. Output only those that contain the letter 'o'.,easy,1,,,new
+582,instructability,"List Hogwarts houses. Repeat the first letter of each house name 3 times at the start. E.g., GGGryffindor. Comma-separated.",medium,2,,,new
+583,instructability,"List Hogwarts houses. Output them in a single line, each padded to 12 characters with dots on the right. E.g., 'Gryffindor..'.",medium,2,,,new
+584,instructability,"Output Hogwarts houses. For each, output letters at odd positions (1-indexed). Comma-separated results.",hard,3,,,new
+585,instructability,"List the Hogwarts houses. For each name, output it in pig latin. Comma-separated.",hard,3,,,new
+586,instructability,Output Hogwarts houses sorted by the ASCII value of their first character (ascending). Show ASCII value alongside: '71: Gryffindor'. One per line.,hard,4,,,new
+587,instructability,"Produce Hogwarts house data as a Python list of dicts. Each dict: {name: str, length: int, starts_vowel: bool, ends_vowel: bool}. Sort by name.",hard,4,,,new
+588,instructability,"List Hogwarts houses. Interleave the list with their numerical positions: 'Gryffindor, 1, Hufflepuff, 2, Ravenclaw, 3, Slytherin, 4'.",medium,2,,,new
+589,instructability,List Hogwarts houses sorted by second letter. Comma-separated.,medium,2,,,new
+590,instructability,"Output Hogwarts houses where each name has exactly one 'l'. Output matching houses comma-separated. If none, output 'NONE'.",hard,3,,,new
+591,instructability,"List Hogwarts houses. For each, compute: number of letters above 'l' in the alphabet. Output: 'House: N'. One per line.",hard,3,,,new
+592,instructability,"Output the Hogwarts houses. For each, produce a Caesar cipher (shift=3) of the name. Show: 'Original → Encoded'. One pair per line, alphabetical.",hard,4,,,new
+593,instructability,How many letters are in 'Gryffindor'? Output only the number.,easy,1,,,new
+594,instructability,How many letters are in 'Hufflepuff'? Output only the number.,easy,1,,,new
+595,instructability,How many letters are in 'Ravenclaw'? Output only the number.,easy,1,,,new
+596,instructability,How many letters are in 'Slytherin'? Output only the number.,easy,1,,,new
+597,instructability,"List Hogwarts houses in alphabetical order. Output their total letter counts as a sum at the end. Format: 'Houses: X, Y, Z, W. Total letters: N'.",medium,2,,,new
+598,instructability,"List Hogwarts houses sorted by last letter. If tied, alphabetically. Comma-separated.",medium,2,,,new
+599,instructability,"Output the Hogwarts house names. For each, interleave the letters with dashes: G-r-y-f-f-i-n-d-o-r. One per line.",hard,3,,,new
+600,instructability,"Output Hogwarts house names in a format where each letter is on a separate line, with the house name as a header before its letters.",hard,3,,,new
+601,instructability,"Produce Hogwarts houses as a SQL INSERT statement into table houses(id INT, name VARCHAR). Id starts at 1. Alphabetical order.",hard,4,,,new
+602,instructability,Produce Hogwarts houses as a JavaScript object literal where keys are houses (camelCase if multi-word) and values are arrays of their vowels.,hard,4,,,new
+603,instructability,List Hogwarts houses that have more vowels than consonants.,easy,1,,,new
+604,instructability,List Hogwarts houses that have more consonants than vowels.,easy,1,,,new
+605,instructability,"Output all Hogwarts houses. For each, compute: vowels - consonants. Show: 'House: score'. Sorted by score descending.",medium,2,,,new
+606,instructability,List Hogwarts houses. Output them in a single continuous string with no separators at all.,medium,2,,,new
+607,instructability,"List Hogwarts houses. For each, output the name in a format where every third letter is CAPITALIZED. Comma-separated.",hard,3,,,new
+608,instructability,"Output Hogwarts houses. For each, find letters that appear more than once. Output: 'House: repeated letters'. If none, write 'none'.",hard,3,,,new
+609,instructability,"Produce Hogwarts houses as a pandas DataFrame construction code snippet. Columns: name, length, vowel_count. All four houses as rows.",hard,4,,,new
+610,instructability,"List Hogwarts houses. Encode each name with a simple substitution: a=1, b=2, ..., z=26. Output the sum of values for each name as: 'House: sum'. Sorted descending.",hard,4,,,new
+611,instructability,Output Hogwarts houses as an HTML unordered list (<ul><li>...</li></ul>). Each house name should be in a <strong> tag. Alphabetical order.,hard,4,,,new
+612,consistency,Which Hogwarts houses are represented by animals?,,,,C1,new
+613,consistency,Can you tell me the Hogwarts houses that use animals as their symbols?,,,,C1,new
+614,consistency,What are the animal mascots for each of the four Hogwarts houses?,,,,C1,new
+615,consistency,List Hogwarts houses along with their emblematic animals.,,,,C1,new
+616,consistency,Name the creatures that represent each Hogwarts house.,,,,C1,new
+617,consistency,Which Hogwarts house is known for valuing bravery?,,,,C2,new
+618,consistency,What house at Hogwarts prizes courage above all else?,,,,C2,new
+619,consistency,Tell me the Hogwarts house whose primary trait is courage.,,,,C2,new
+620,consistency,Identify the house at Hogwarts that is most associated with bravery and daring.,,,,C2,new
+621,consistency,"At Hogwarts, which house selects members based on their nerve and chivalry?",,,,C2,new
+622,consistency,What values does Slytherin house stand for?,,,,C3,new
+623,consistency,Describe the key characteristics that define Slytherin house members.,,,,C3,new
+624,consistency,What traits does Slytherin prize in its students?,,,,C3,new
+625,consistency,Tell me about the qualities that Slytherin looks for in new members.,,,,C3,new
+626,consistency,"In Hogwarts lore, what characteristics are associated with the Slytherin house?",,,,C3,new
+627,consistency,What are Hufflepuff's house colors?,,,,C4,new
+628,consistency,Which colors represent Hufflepuff in Harry Potter?,,,,C4,new
+629,consistency,Tell me the official colors of the Hufflepuff house.,,,,C4,new
+630,consistency,What color scheme does Hufflepuff use as its house colors?,,,,C4,new
+631,consistency,"In the Hogwarts house system, what are the identifying colors of Hufflepuff?",,,,C4,new
+632,consistency,Who is the ghost of Ravenclaw house?,,,,C5,new
+633,consistency,Can you name Ravenclaw's house ghost?,,,,C5,new
+634,consistency,Which ghost haunts Ravenclaw tower in Harry Potter?,,,,C5,new
+635,consistency,What is the name of the resident ghost associated with Ravenclaw house?,,,,C5,new
+636,consistency,Tell me the name of the ghost that belongs to Ravenclaw at Hogwarts.,,,,C5,new
+637,consistency,Who founded Gryffindor house?,,,,C6,new
+638,consistency,Which of the four Hogwarts founders created Gryffindor?,,,,C6,new
+639,consistency,What is the name of the founder of Gryffindor?,,,,C6,new
+640,consistency,Tell me who originally established Gryffindor house at Hogwarts.,,,,C6,new
+641,consistency,Which Hogwarts founder is Gryffindor named after or credited to?,,,,C6,new
+642,consistency,Who is the head of Slytherin house in the Harry Potter books?,,,,C7,new
+643,consistency,Which teacher is the head of Slytherin during Harry's time at Hogwarts?,,,,C7,new
+644,consistency,Name the head of house for Slytherin in the original Harry Potter series.,,,,C7,new
+645,consistency,Who oversees Slytherin house as its designated head?,,,,C7,new
+646,consistency,Which Hogwarts professor serves as head of Slytherin house during Harry's years?,,,,C7,new
+647,consistency,Who was Hufflepuff founded by?,,,,C8,new
+648,consistency,Which founder of Hogwarts is credited with establishing Hufflepuff house?,,,,C8,new
+649,consistency,What is the name of the person who founded Hufflepuff?,,,,C8,new
+650,consistency,Tell me which of the original Hogwarts founders created Hufflepuff.,,,,C8,new
+651,consistency,"In Hogwarts history, who is attributed with the founding of Hufflepuff house?",,,,C8,new
+652,consistency,What Hogwarts house does Hermione Granger belong to?,,,,C9,new
+653,consistency,Which house was Hermione sorted into at Hogwarts?,,,,C9,new
+654,consistency,Hermione Granger — which Hogwarts house is she in?,,,,C9,new
+655,consistency,Tell me the house that Hermione Granger was assigned to at Hogwarts.,,,,C9,new
+656,consistency,"In Harry Potter, which house does Hermione call home at Hogwarts?",,,,C9,new
+657,consistency,What does the Sorting Hat do at Hogwarts?,,,,C10,new
+658,consistency,Can you explain the purpose of the Sorting Hat in Harry Potter?,,,,C10,new
+659,consistency,Describe the role of the Sorting Hat in the Hogwarts house system.,,,,C10,new
+660,consistency,How does the Sorting Hat decide which house a student joins?,,,,C10,new
+661,consistency,What function does the Sorting Hat serve in placing students into their houses?,,,,C10,new
+662,consistency,What colors represent Gryffindor house?,,,,C11,new
+663,consistency,What are Gryffindor's official house colors in Harry Potter?,,,,C11,new
+664,consistency,Which two colors are associated with Gryffindor?,,,,C11,new
+665,consistency,Tell me the color scheme for Gryffindor house.,,,,C11,new
+666,consistency,What colors would you see on a Gryffindor house scarf?,,,,C11,new
+667,consistency,What values does Ravenclaw house emphasize?,,,,C12,new
+668,consistency,Which traits define members of Ravenclaw house?,,,,C12,new
+669,consistency,What qualities does Ravenclaw prize in its students?,,,,C12,new
+670,consistency,Describe the core characteristics of Ravenclaw house.,,,,C12,new
+671,consistency,"In Hogwarts lore, what kind of students are placed in Ravenclaw?",,,,C12,new
+672,consistency,Who is head of Gryffindor house in Harry Potter?,,,,C13,new
+673,consistency,Which professor leads Gryffindor house at Hogwarts?,,,,C13,new
+674,consistency,Name the head of Gryffindor during Harry's time at Hogwarts.,,,,C13,new
+675,consistency,Tell me which teacher serves as head of Gryffindor house.,,,,C13,new
+676,consistency,Which Hogwarts professor is responsible for overseeing Gryffindor house?,,,,C13,new
+677,consistency,Which Hogwarts house is Draco Malfoy in?,,,,C14,new
+678,consistency,What house was Draco Malfoy sorted into?,,,,C14,new
+679,consistency,Tell me Draco Malfoy's Hogwarts house.,,,,C14,new
+680,consistency,Which of the four Hogwarts houses does Draco Malfoy belong to?,,,,C14,new
+681,consistency,"In Harry Potter, what house is Draco Malfoy affiliated with?",,,,C14,new
+682,consistency,How are students distributed across the four Hogwarts houses?,,,,C15,new
+683,consistency,Do the four Hogwarts houses have equal numbers of students?,,,,C15,new
+684,consistency,Roughly how many students belong to each Hogwarts house?,,,,C15,new
+685,consistency,Are all four Hogwarts houses of approximately the same size?,,,,C15,new
+686,consistency,"In the Harry Potter world, is the student population divided equally among the four houses?",,,,C15,new
+687,consistency,Who is the ghost of Hufflepuff house?,,,,C16,new
+688,consistency,Which ghost is associated with Hufflepuff in Harry Potter?,,,,C16,new
+689,consistency,Name the house ghost for Hufflepuff.,,,,C16,new
+690,consistency,What is the name of Hufflepuff's resident ghost?,,,,C16,new
+691,consistency,Tell me the ghost that belongs to Hufflepuff house at Hogwarts.,,,,C16,new
+692,consistency,What colors are associated with Slytherin house?,,,,C17,new
+693,consistency,Which colors represent Slytherin in the Harry Potter series?,,,,C17,new
+694,consistency,Tell me the official colors of Slytherin house.,,,,C17,new
+695,consistency,What is the color scheme for Slytherin?,,,,C17,new
+696,consistency,What colors would you see on a Slytherin house uniform?,,,,C17,new
+697,consistency,Who is the head of Hufflepuff house in Harry Potter?,,,,C18,new
+698,consistency,Which professor leads Hufflepuff at Hogwarts?,,,,C18,new
+699,consistency,Name the head of house for Hufflepuff during Harry's time at Hogwarts.,,,,C18,new
+700,consistency,Tell me the Hogwarts teacher who serves as Hufflepuff head of house.,,,,C18,new
+701,consistency,Which Hogwarts professor oversees Hufflepuff house?,,,,C18,new
+702,consistency,Who is Gryffindor's house ghost?,,,,C19,new
+703,consistency,What is the name of the ghost associated with Gryffindor?,,,,C19,new
+704,consistency,Which ghost haunts the Gryffindor common room?,,,,C19,new
+705,consistency,Name the resident ghost of Gryffindor house.,,,,C19,new
+706,consistency,Tell me about the ghost that is affiliated with Gryffindor house.,,,,C19,new
+707,consistency,What core values does Hufflepuff house champion?,,,,C20,new
+708,consistency,Describe the defining traits of Hufflepuff students.,,,,C20,new
+709,consistency,What qualities does Hufflepuff seek in its members?,,,,C20,new
+710,consistency,"In Harry Potter, what kind of person is sorted into Hufflepuff?",,,,C20,new
+711,consistency,What characteristics does Hufflepuff house value most in students?,,,,C20,new
+712,consistency,Who founded Ravenclaw house?,,,,C21,new
+713,consistency,Which Hogwarts founder established Ravenclaw?,,,,C21,new
+714,consistency,Name the founder of Ravenclaw house.,,,,C21,new
+715,consistency,Who is credited with creating Ravenclaw house at Hogwarts?,,,,C21,new
+716,consistency,Tell me which of the four Hogwarts founders created Ravenclaw.,,,,C21,new
+717,consistency,What are the house colors of Ravenclaw?,,,,C22,new
+718,consistency,Which colors are associated with Ravenclaw in Harry Potter?,,,,C22,new
+719,consistency,Tell me the official colors used by Ravenclaw house.,,,,C22,new
+720,consistency,What colors make up the Ravenclaw house color scheme?,,,,C22,new
+721,consistency,What color would you expect to see on Ravenclaw robes?,,,,C22,new
+722,consistency,Who founded Slytherin house?,,,,C23,new
+723,consistency,Which of the four Hogwarts founders created Slytherin?,,,,C23,new
+724,consistency,Name the founder of Slytherin house.,,,,C23,new
+725,consistency,Who is attributed with establishing Slytherin at Hogwarts?,,,,C23,new
+726,consistency,Tell me the name of the Hogwarts founder who established Slytherin house.,,,,C23,new
+727,consistency,Which Hogwarts house is most associated with loyalty?,,,,C24,new
+728,consistency,Which house at Hogwarts is known for valuing loyalty and dedication?,,,,C24,new
+729,consistency,Tell me the Hogwarts house that prizes loyalty above other traits.,,,,C24,new
+730,consistency,Which house in Harry Potter is celebrated for the loyalty of its members?,,,,C24,new
+731,consistency,"If loyalty is your strongest trait, which Hogwarts house would you be sorted into?",,,,C24,new
+732,consistency,Who is the head of Ravenclaw house in Harry Potter?,,,,C25,new
+733,consistency,Which professor oversees Ravenclaw at Hogwarts?,,,,C25,new
+734,consistency,Name the head of house for Ravenclaw during Harry's years at Hogwarts.,,,,C25,new
+735,consistency,Tell me the teacher who serves as Ravenclaw head of house.,,,,C25,new
+736,consistency,"In Harry Potter, which Hogwarts professor leads Ravenclaw house?",,,,C25,new
+737,consistency,Where is the Gryffindor common room located in Hogwarts?,,,,C26,new
+738,consistency,What part of Hogwarts castle houses the Gryffindor common room?,,,,C26,new
+739,consistency,"In Harry Potter, where within Hogwarts is Gryffindor's common room found?",,,,C26,new
+740,consistency,Tell me the location of the Gryffindor common room inside Hogwarts.,,,,C26,new
+741,consistency,Can you describe where the Gryffindor students' common room is situated in Hogwarts?,,,,C26,new
+742,consistency,Which Hogwarts house is most associated with dark wizards?,,,,C27,new
+743,consistency,Which house has produced the most dark wizards in Harry Potter lore?,,,,C27,new
+744,consistency,"In the Harry Potter universe, which house is considered to produce more dark wizards?",,,,C27,new
+745,consistency,Tell me which Hogwarts house is historically linked with dark magic practitioners.,,,,C27,new
+746,consistency,Is one Hogwarts house more infamous for producing villains than the others?,,,,C27,new
+747,consistency,How many houses are there at Hogwarts?,,,,C28,new
+748,consistency,What is the total number of houses in Hogwarts School?,,,,C28,new
+749,consistency,How many different houses can a student be sorted into at Hogwarts?,,,,C28,new
+750,consistency,Count the number of Hogwarts houses that exist.,,,,C28,new
+751,consistency,"In the Harry Potter world, how many houses make up Hogwarts?",,,,C28,new
+752,consistency,What is the House Cup in Harry Potter?,,,,C29,new
+753,consistency,Can you explain what the House Cup competition involves at Hogwarts?,,,,C29,new
+754,consistency,Describe the House Cup and how it is awarded in Harry Potter.,,,,C29,new
+755,consistency,How does the House Cup work in the Harry Potter universe?,,,,C29,new
+756,consistency,What prize do Hogwarts houses compete for each year?,,,,C29,new
+757,consistency,When are students sorted into their houses at Hogwarts?,,,,C30,new
+758,consistency,At what point in their Hogwarts career are students assigned to a house?,,,,C30,new
+759,consistency,Is the sorting ceremony at Hogwarts held when students first arrive?,,,,C30,new
+760,consistency,During which year at Hogwarts does the Sorting Hat place students in their houses?,,,,C30,new
+761,consistency,Tell me when new Hogwarts students are sorted into their respective houses.,,,,C30,new
+762,planning,List all Hogwarts houses. Remove any house with fewer than 9 letters. Output remaining houses comma-separated.,,,2,,new
+763,planning,List all Hogwarts houses. Keep only those whose names start with a vowel. Output them.,,,2,,new
+764,planning,List all Hogwarts houses alphabetically. Output only the first two from that sorted list.,,,2,,new
+765,planning,Name all Hogwarts houses. Remove those that end with a consonant. List remaining ones.,,,2,,new
+766,planning,List all Hogwarts houses. Sort them by length. Output only the longest one.,,,2,,new
+767,planning,List all Hogwarts houses. Sort alphabetically. Output only the last one in that list.,,,2,,new
+768,planning,List Hogwarts houses. Remove those with exactly 10 letters. What remains?,,,2,,new
+769,planning,Name the Hogwarts houses. Sort by number of vowels. What is the house with the fewest vowels?,,,2,,new
+770,planning,List Hogwarts houses. Remove any whose name contains the letter 'u'. Output the remaining ones.,,,2,,new
+771,planning,List all Hogwarts houses. Keep only those with an even number of letters. Output them.,,,2,,new
+772,planning,List all Hogwarts houses. Remove Gryffindor. Sort remaining alphabetically. Output them numbered.,,,3,,new
+773,planning,Name all Hogwarts houses. Keep only those with more than 8 letters. Sort by length. Output the result.,,,3,,new
+774,planning,List Hogwarts houses. Remove any that contain the letter 'r'. Sort remaining alphabetically. Output them.,,,3,,new
+775,planning,List the Hogwarts houses. Remove those starting with 'G' or 'S'. Sort remaining by length descending. Output.,,,3,,new
+776,planning,Name all Hogwarts houses. Keep only those where vowel count > consonant count. Sort alphabetically. Output.,,,3,,new
+777,planning,List Hogwarts houses. Remove Slytherin and Hufflepuff. Sort remaining alphabetically. Output numbered list.,,,3,,new
+778,planning,List Hogwarts houses. Filter to those with exactly 9 letters. Sort alphabetically. Output or write 'NONE' if empty.,,,3,,new
+779,planning,Name all Hogwarts houses. Sort by number of consonants descending. Output top 2 only.,,,3,,new
+780,planning,List all Hogwarts houses. Remove any house with the letter 'a'. Sort remaining by length. Output them.,,,3,,new
+781,planning,List Hogwarts houses. Remove houses where first and last letter are both consonants. Sort remaining alphabetically. Output.,,,3,,new
+782,planning,List Hogwarts houses. Remove Hufflepuff. Sort remaining alphabetically. Uppercase all names. Output comma-separated.,,,4,,new
+783,planning,List Hogwarts houses. Sort by length ascending. Remove the shortest. Reverse remaining list. Output numbered.,,,4,,new
+784,planning,Name all Hogwarts houses. Filter those with length > 8. Sort by vowel count descending. Output in format 'Rank. Name (vowels)'. ,,,4,,new
+785,planning,List Hogwarts houses. Remove any containing double letters. Sort alphabetically. Add index. Output as 'N: House'.,,,4,,new
+786,planning,Name all Hogwarts houses. Sort by length. Take the two longest. Alphabetically sort those two. Output as a numbered list.,,,4,,new
+787,planning,List Hogwarts houses. Remove any that share their first letter with another house. Sort remaining alphabetically. Lowercase. Output.,,,4,,new
+788,planning,List Hogwarts houses. Sort by number of unique letters descending. Keep top 2. Reverse those two. Comma-separated output.,,,4,,new
+789,planning,List Hogwarts houses. Remove those ending in a vowel. Sort remaining by length. Uppercase first letter. Output as numbered list.,,,4,,new
+790,planning,Name all Hogwarts houses. Sort alphabetically. Take alternating ones (positions 1 and 3). Sort those by length. Output comma-separated.,,,4,,new
+791,planning,List Hogwarts houses. Remove those with vowel count < 3. Sort remaining by consonant count ascending. Output with consonant count appended: 'House (N consonants)'.,,,4,,new
+792,planning,List Hogwarts houses. Sort alphabetically. Assign ranks 1-4. Remove rank 2 and 4. Sort remaining by length. Output as 'Rank. Name'.,,,5,,new
+793,planning,List Hogwarts houses. Compute length of each. Sort by length ascending. Remove shortest. Compute vowels in each remaining. Output house with most vowels.,,,5,,new
+794,planning,Name all Hogwarts houses. Sort alphabetically. Take the first two and last one from that sorted list. Sort those three by length descending. Output as numbered list.,,,5,,new
+795,planning,"List Hogwarts houses. Remove any containing letter 'e'. Sort remaining by length. If more than 2 remain, keep only 2 longest. Uppercase. Comma-separated output.",,,5,,new
+796,planning,"Name the Hogwarts houses. Sort by vowel count descending. Take top 3. Among those 3, sort by length ascending. Output 1st and 3rd of this final list, pipe-separated.",,,5,,new
+797,planning,List Hogwarts houses. Sort by first letter descending (Z to A). Remove those ranked even positions. Sort remaining by total letters. Output with letter count: 'House: N'.,,,5,,new
+798,planning,List Hogwarts houses. Compute: vowels - consonants for each. Sort by this score descending. Remove bottom 2. Output remaining houses with their scores.,,,5,,new
+799,planning,"Name all Hogwarts houses. Sort alphabetically. Pair them as (1st,3rd) and (2nd,4th). For each pair, output the one with more vowels. Output two winners comma-separated.",,,5,,new
+800,planning,"List Hogwarts houses. Remove any whose name ends in 'n'. Sort remaining by length descending. Assign new ranks 1, 2, ... Output: 'Rank N: House'.",,,5,,new
+801,planning,"List Hogwarts houses. Sort by consonant count. If a tie, alphabetical. Remove the one with fewest consonants. Sort remaining by length. Output comma-separated.",,,5,,new
+802,planning,"List the Hogwarts houses. Count total vowels across all 4 houses. Count total consonants. Output: 'Vowels: V, Consonants: C, Total: T'.",,,3,,new
+803,planning,List Hogwarts houses. Compute the sum of all letter counts. Divide by 4. Output the average letter count rounded to 1 decimal.,,,3,,new
+804,planning,"List Hogwarts houses. For each, compute (length * vowel_count). Sum all values. Output the total.",,,3,,new
+805,planning,"List Hogwarts houses alphabetically. Assign scores: 1st=4pts, 2nd=3pts, 3rd=2pts, 4th=1pt. Sort by score descending. Output 'House: score'.",,,4,,new
+806,planning,"List Hogwarts houses. Compute letter count for each. Find the range (max - min). Output: 'Max: M, Min: m, Range: R'.",,,4,,new
+807,planning,List Hogwarts houses. Compute vowels+consonants for each. Sort by this total descending. Output rank and running total. Format: 'Rank N | House | Running Total: X'.,,,4,,new
+808,planning,List Hogwarts houses. Compute each house's vowel percentage (vowels/total_letters*100). Sort by percentage descending. Output: 'House: X.X%'. Round to 1 decimal.,,,5,,new
+809,planning,List Hogwarts houses. Assign each a value: length squared. Sort by value ascending. Output cumulative sum at each step: 'House: cum_sum'.,,,5,,new
+810,planning,"List Hogwarts houses alphabetically. Give each a point: +1 per vowel, -1 per consonant. Sort by score. Output 'House: score' for all four.",,,5,,new
+811,planning,"List all Hogwarts houses. For each, compute: number_of_unique_letters * vowel_count. Sort by this metric descending. Output the top 2 with their metric value.",,,5,,new
+812,planning,List all Hogwarts houses. Find the intersection of letters shared by all four house names. Output those letters.,,,3,,new
+813,planning,List all Hogwarts houses. Find letters that appear in exactly two house names. Output those letters alphabetically.,,,3,,new
+814,planning,"List Hogwarts houses. For each pair (6 pairs total), output which has more letters. Format: 'HouseA vs HouseB: HouseA/HouseB/tie'.",,,3,,new
+815,planning,List Hogwarts houses. Find all letters that appear in at least 3 of the 4 house names. Output those letters sorted.,,,4,,new
+816,planning,"List Hogwarts houses. Find letters unique to exactly one house name. For each such letter, output: 'letter: HouseName'. Sorted alphabetically by letter.",,,4,,new
+817,planning,"Name all Hogwarts houses. Compare each against Gryffindor: does it have more, fewer, or equal letters? Output: 'House: more/fewer/equal'.",,,4,,new
+818,planning,List Hogwarts houses. Find the union of all unique letters across all house names. Count how many unique letters exist total. Output the count and the letters sorted.,,,4,,new
+819,planning,"List all Hogwarts houses. For each pair, compute Jaccard similarity of their letter sets (|intersection|/|union|). Output the pair with the highest Jaccard similarity.",,,5,,new
+820,planning,"List Hogwarts houses. Find letters that appear in all four names. Find letters in no names (from a-z). Output: 'Common: ..., Absent: first 5 absent letters'.",,,5,,new
+821,planning,"List Hogwarts houses. For each house, compute the set of consonants. Find consonants that appear in exactly 3 house names. Output those consonants alphabetically.",,,5,,new
+822,planning,"List Hogwarts houses alphabetically. If there are exactly 4, output the middle two (2nd and 3rd). Otherwise output all.",,,3,,new
+823,planning,"Name Hogwarts houses. If Slytherin is in the list, remove it and output the rest alphabetically. If not, output all alphabetically.",,,3,,new
+824,planning,"List Hogwarts houses by length. If two or more tie for shortest, output all tied ones. Otherwise output only the single shortest.",,,3,,new
+825,planning,"List Hogwarts houses. Sort alphabetically. If the first house has more than 9 letters, output just the first house. Otherwise output all four.",,,4,,new
+826,planning,"Name Hogwarts houses. Count those with more vowels than consonants. If that count is > 2, output those houses. If count is <= 2, output the count instead.",,,4,,new
+827,planning,"List Hogwarts houses. For each: if vowel_count > 3, mark 'HIGH VOWEL'; else mark 'LOW VOWEL'. Sort by mark (HIGH first). Output: 'House: mark'.",,,4,,new
+828,planning,"Name Hogwarts houses. Sort by length. If the shortest and longest differ by more than 2 letters, output only those two. Otherwise output all four.",,,4,,new
+829,planning,"List Hogwarts houses. For each house, if its name contains 'r', assign group A, else group B. Sort each group alphabetically. Output group A then group B.",,,5,,new
+830,planning,"Name Hogwarts houses. Sort alphabetically. Split into two equal halves. For each half, output the one with more total letters. Then sort those two winners by length.",,,5,,new
+831,planning,"List Hogwarts houses. If any house has a name that is a palindrome, output it. Otherwise, take the two alphabetically middle houses and output the one with more vowels.",,,5,,new
+832,planning,"List Hogwarts houses. Sort by length. Output them in a sentence: 'From shortest to longest: A, B, C, D'.",,,3,,new
+833,planning,Name Hogwarts houses. Sort alphabetically. Output as a numbered list starting from 10 and incrementing by 10.,,,3,,new
+834,planning,"List Hogwarts houses. Reverse alphabetical order. Output each with its reversed position (4, 3, 2, 1) prepended.",,,3,,new
+835,planning,Name Hogwarts houses. Sort by vowel count descending. Take top 2. Output them as a JSON array of strings.,,,4,,new
+836,planning,List Hogwarts houses. Sort alphabetically. Remove the 2nd one. Output remaining 3 as a Python list literal.,,,4,,new
+837,planning,Name all Hogwarts houses. Sort by length descending. Take first 3. Uppercase all. Output as a YAML list.,,,4,,new
+838,planning,List Hogwarts houses. Sort alphabetically. Assign ranks 1-4. Compute rank * length for each. Sort by this product descending. Output: 'House: product'.,,,5,,new
+839,planning,"List Hogwarts houses. Sort by length. Compute cumulative length at each step. Output as CSV: house,length,cumulative_length. Include header.",,,5,,new
+840,planning,Name all Hogwarts houses. Sort alphabetically. Compute position * vowel_count for each. Sort by this score ascending. Output as a numbered list.,,,5,,new
+841,planning,List Hogwarts houses. Remove the one with the most consonants. Sort remaining by length. Output as a Markdown table with columns: Rank | House | Length.,,,5,,new
+842,planning,How many Hogwarts houses have more than 3 vowels? List them and count.,,,2,,new
+843,planning,How many Hogwarts houses have names longer than 9 letters? List them.,,,2,,new
+844,planning,How many Hogwarts houses end in a consonant? Name them.,,,2,,new
+845,planning,Name all Hogwarts houses. Count how many contain the letter 'f'. List those and provide the count.,,,3,,new
+846,planning,List Hogwarts houses. Count how many have an odd total letter count. Name them and provide the count.,,,3,,new
+847,planning,Name Hogwarts houses. Find how many have a vowel count that is exactly half their total length. Name them.,,,3,,new
+848,planning,List Hogwarts houses. Count how many letters are shared between Gryffindor and Slytherin (as sets). Count how many are unique to each. Output all three counts.,,,4,,new
+849,planning,List Hogwarts houses. Determine how many houses have the letter 'l' appearing more than once. List those houses.,,,4,,new
+850,planning,List all Hogwarts houses. Count the total number of distinct letters used across all four house names. Output the count and list the letters.,,,4,,new
+851,planning,"List Hogwarts houses. For each pair of houses, count shared letters. Find the pair with maximum shared letters. Output that pair and the shared count.",,,5,,new
+852,planning,"List all Hogwarts houses. For each, compute (length - vowels). Call this the consonant count. Sort by consonant count ascending. Output 'House: consonant_count'.",,,4,,new
+853,planning,"Name all Hogwarts houses. For each, compute length mod 3. Group by result (0,1,2). Output each group's houses.",,,4,,new
+854,planning,"List Hogwarts houses. For each, compute vowels / length as a fraction. Sort by this fraction descending. Output: 'House: fraction' (as simplified fraction).",,,4,,new
+855,planning,List Hogwarts houses. Compute vowel_count * consonant_count for each. Call this the vc_product. Find house with max vc_product. Output it and the value.,,,5,,new
+856,planning,Name all Hogwarts houses. Compute (alphabetical_rank * length) for each. Sum all four values. Output the sum.,,,5,,new
+857,planning,"List Hogwarts houses alphabetically. Compute the Hamming distance between consecutive pairs (Gryffindor/Hufflepuff, Hufflepuff/Ravenclaw, Ravenclaw/Slytherin) considering only length differences. Output each pair and its distance.",,,5,,new
+858,planning,List Hogwarts houses. Compute the absolute difference in letter count between each house and the average letter count of all four. Output: 'House: diff'. Sort by diff descending.,,,5,,new
+859,planning,"Name the Hogwarts houses. For each, compute vowel_count ^ 2 (squared). Sum all. Output the sum.",,,4,,new
+860,planning,"List Hogwarts houses. Compute (first_letter_position + last_letter_position) in alphabet for each. Sort by total descending. Output: 'House: total'. Use a=1, z=26.",,,4,,new
+861,planning,Name all Hogwarts houses. Compute the product of all letter counts. Output: vowel_product (product of vowel counts) and consonant_product separately.,,,5,,new
+862,planning,List Hogwarts houses alphabetically. Round 1: Remove the last alphabetically. Round 2: Remove the shortest remaining. Output what remains.,,,3,,new
+863,planning,"List Hogwarts houses. Eliminate the one with fewest vowels. From remaining, eliminate the one with the most consonants. Output what remains.",,,3,,new
+864,planning,"List Hogwarts houses. Round 1: Remove houses with length < 9. Round 2: From remaining, remove those not containing 'r'. Output the survivor(s).",,,4,,new
+865,planning,List Hogwarts houses alphabetically. Eliminate positions 2 and 4. Sort remaining by length. Eliminate the longer one. Output the final survivor.,,,4,,new
+866,planning,Name all Hogwarts houses. Eliminate in 3 rounds: Round 1 removes alphabetically last. Round 2 removes most vowels from remaining. Round 3 removes longest from remaining. Output the final survivor.,,,5,,new
+867,planning,"List Hogwarts houses. Simulate bracket: Match Gryffindor vs Hufflepuff (longer wins, alphabetical tiebreak) and Ravenclaw vs Slytherin. Then final match of the two winners. Output winner.",,,5,,new
+868,planning,"List Hogwarts houses sorted by vowels descending. In each of 3 rounds, remove the current last-placed house. Output the final remaining house.",,,5,,new
+869,planning,"Name Hogwarts houses. Assign each a seed (1=most letters, 4=fewest). Simulate: seed 1 vs seed 4 (more vowels advances), seed 2 vs seed 3 (fewer consonants advances). Final: more vowels advances. Name the overall winner.",,,5,,new
+870,planning,"Name all Hogwarts houses. Remove the one that comes first alphabetically. From remaining, output the one with the most consonants.",,,3,,new
+871,planning,List Hogwarts houses by length descending. Remove the longest. Output the shortest from what remains.,,,3,,new
+872,planning,"List Hogwarts houses alphabetically. For each, take the first two letters. Combine them into a single string in order. Output that string.",,,3,,new
+873,planning,Name Hogwarts houses. Sort by length ascending. Take the last letter of each. Combine into a word in order. Output it.,,,3,,new
+874,planning,List Hogwarts houses. Sort alphabetically. Take the Nth letter of each (N = its alphabetical position among the 4 houses). Combine into a 4-letter string. Output it.,,,4,,new
+875,planning,"Name Hogwarts houses. For each, take the vowels only. Sort houses by vowel count ascending. Concatenate the vowels from each house in that order. Output the result.",,,4,,new
+876,planning,"List Hogwarts houses alphabetically. From each, extract every other letter (starting position 1). Concatenate all extracted letters. Output the resulting string.",,,5,,new
+877,planning,Name Hogwarts houses. Sort by length. Reverse each name. Take the first 3 letters of each reversed name. Concatenate in order. Output the string.,,,5,,new
+878,planning,"List Hogwarts houses. Sort alphabetically. For each, take letters at prime positions (1,2,3,5,7,...). Combine letters from all houses. Count the combined string length. Output count and string.",,,5,,new
+879,planning,List Hogwarts houses. Sort by vowel count. Concatenate first letters of each house in that sorted order. Output the 4-letter code.,,,3,,new
+880,planning,Name Hogwarts houses. Sort alphabetically. Create an acronym from their first letters. Then sort those letters alphabetically. Output both the original and sorted acronym.,,,4,,new
+881,planning,"List Hogwarts houses by length ascending. From each, take the middle character (round down if even length). Output the 4-character string formed.",,,4,,new
+882,planning,"For each Hogwarts house, determine: does it have >4 vowels? More consonants than vowels? Output both answers per house.",,,3,,new
+883,planning,"List Hogwarts houses. For each, answer (True/False): length > 9; starts with consonant. Output as: 'House: T/F, T/F'.",,,3,,new
+884,planning,"For each Hogwarts house evaluate: (a) length is prime, (b) vowel count is even, (c) contains double letters. Output results as a table.",,,4,,new
+885,planning,"List Hogwarts houses. For each, compute: is length divisible by 3? is vowel count > 3? Combine as AND logic. Output houses where both are True.",,,4,,new
+886,planning,"For each Hogwarts house, evaluate 3 conditions: length>=9; vowel_count>=3; contains letter 'n'. Score = number of True conditions. Sort by score descending. Output 'House: score'.",,,5,,new
+887,planning,"List Hogwarts houses. For each, build a feature vector: [length>9, vowels>3, contains_r, ends_in_vowel]. Houses sharing identical feature vectors are in the same cluster. Output clusters.",,,5,,new
+888,planning,"List Hogwarts houses. For each house pair, check if one name is a substring of the other. Output: 'HouseA–HouseB: yes/no'.",,,4,,new
+889,planning,"List Hogwarts houses. For each, check if the number of vowels equals the number of consonants. Output 'yes' or 'no' for each.",,,3,,new
+890,planning,"Name Hogwarts houses. For each, check if it contains any repeated letters. Output 'has repeats' or 'no repeats' for each.",,,3,,new
+891,planning,"List Hogwarts houses. Determine which house name is closest in length to 9 (minimum absolute difference). If tied, alphabetical. Output that house.",,,4,,new
+892,planning,List Hogwarts houses. Sort by vowel count. Break ties by length ascending. Break remaining ties alphabetically. Output numbered.,,,3,,new
+893,planning,Name Hogwarts houses. Sort by length. Break ties alphabetically. Output each with its length.,,,3,,new
+894,planning,"List Hogwarts houses. Sort by consonant count ascending. For ties, sort by vowel count descending. Output: 'House: consonants/vowels'.",,,4,,new
+895,planning,"Name Hogwarts houses. Sort first by whether they contain the letter 'r' (houses with 'r' first), then by length ascending within each group. Output numbered list.",,,4,,new
+896,planning,"List Hogwarts houses. Sort by (vowel_count DESC, consonant_count ASC, alphabetical ASC) as a compound sort key. Output in final sorted order.",,,5,,new
+897,planning,"List Hogwarts houses. Assign priority: 1 if contains 'e', 2 otherwise. Sort by priority, then by length DESC, then alphabetically. Output the sorted list.",,,5,,new
+898,planning,Name Hogwarts houses. Sort by last letter. Break ties by second-to-last letter. Output sorted list.,,,4,,new
+899,planning,"List Hogwarts houses. Sort by (contains_double_letter DESC, length ASC). Output sorted list with T/F for double letter.",,,4,,new
+900,planning,"List Hogwarts houses. Sort by (first_letter_alphabetical DESC, last_letter_alphabetical ASC, length ASC). Output the sorted order.",,,5,,new
+901,planning,Name all Hogwarts houses. Primary sort: houses starting with a vowel come first. Secondary sort: length descending. Tertiary sort: alphabetical. Output the sorted list.,,,5,,new
+902,planning,"List Hogwarts houses. Remove any with the letter 'z'. From remaining, remove any with 'x'. Output what remains (or 'ALL' if none removed).",,,3,,new
+903,planning,"List Hogwarts houses. If any has exactly 8 letters, output it. If none has exactly 8 letters, output the one closest to 8. Show the letter count.",,,3,,new
+904,planning,"Name all Hogwarts houses. Find any pair where one name contains the other as a substring. If none, output 'NONE'.",,,3,,new
+905,planning,"List Hogwarts houses. Attempt to sort by alphabetical position of their 5th letter. For houses with fewer than 5 letters, put them last. Output sorted list.",,,4,,new
+906,planning,Name Hogwarts houses. Compute length mod 7 for each. Sort by this modular value ascending. Output 'House: mod_value'. Break mod ties alphabetically.,,,4,,new
+907,planning,List Hogwarts houses. Reverse each name. Check if reversed name is a valid English word. Output 'House: yes/no (reversed: X)'.,,,5,,new
+908,planning,"Name Hogwarts houses. For each, compute the sum of alphabetical positions of all letters. Sort by sum ascending. Output 'House: sum'.",,,5,,new
+909,planning,"List all Hogwarts houses. For each pair, compute absolute difference in vowel counts. Find the pair with the largest difference. Output that pair and the difference.",,,5,,new
+910,planning,"Name Hogwarts houses. For each, remove all vowels. Sort remaining strings by length descending. Output the consonant strings.",,,4,,new
+911,planning,"List Hogwarts houses. For each, remove all consonants. Sort remaining vowel strings alphabetically. Output the vowel strings.",,,4,,new
+912,planning,Which two Hogwarts houses have the most letters? List them.,,,2,,new
+913,planning,Which two Hogwarts houses have the fewest total vowels? List them.,,,2,,new
+914,planning,"Rank all Hogwarts houses by letter count, highest first. Output the ranking.",,,3,,new
+915,planning,"Rank Hogwarts houses by vowel count, highest first. For ties, alphabetical. Output the ranking.",,,3,,new
+916,planning,List all Hogwarts houses. Rank by: (length * vowel_count). Show the full ranking from highest to lowest.,,,4,,new
+917,planning,List Hogwarts houses. Rank them by number of unique letters. Highest rank = most unique. Show rank and unique letter count.,,,4,,new
+918,planning,List Hogwarts houses. Create a composite score: (vowel_count * 2) + (unique_letter_count) - (consonant_count). Rank by composite score descending. Output 'Rank. House: score'.,,,5,,new
+919,planning,"Name Hogwarts houses. For each, compute 3 ranks: alphabetical rank, length rank, vowel rank. Sum ranks. Sort by sum ascending. Output: 'House: sum_of_ranks'.",,,5,,new
+920,planning,"List Hogwarts houses. Assign ordinal ranking for length, vowel count, and consonant count separately. Compute average rank. Sort by average rank ascending. Output all values.",,,5,,new
+921,planning,"Name all Hogwarts houses. Create a preference order: prefer houses with even-length names, then more vowels, then alphabetical. Output the ranked list.",,,5,,new
+922,planning,"List Hogwarts houses. For each, generate a 3-word alliterative phrase where all words start with the house's first letter. Output one phrase per house.",,,3,,new
+923,planning,"Name Hogwarts houses. For each, write the house name followed by a one-word adjective that fits the house's reputation. Output: 'House: adjective'.",,,3,,new
+924,planning,"List Hogwarts houses alphabetically. For each, create an acronym where each letter of the house name stands for an adjective or noun. Just use the first two letters for brevity.",,,4,,new
+925,planning,"Name Hogwarts houses. For each, output the name with a number attached: the house's position in your sorted list squared. E.g., 'Gryffindor-1'.",,,4,,new
+926,planning,"List Hogwarts houses sorted by length. For each, generate a 5-character padded version: center the name in a 12-character field with '-' padding. Output each padded name.",,,5,,new
+927,planning,"Name Hogwarts houses. Alphabetical sort. For each, create a 4-letter code: first letter + last letter + vowel count as digit + consonant count as digit. Output codes.",,,5,,new
+928,planning,"List Hogwarts houses. Sort by length. Create a step-by-step addition: Start=0, add each house's length one at a time in sorted order. Show each step: 'After House: running_total'.",,,4,,new
+929,planning,"Name Hogwarts houses. Create a countdown: start from total letters across all 4 houses, subtract each house's length in alphabetical order. Show steps.",,,4,,new
+930,planning,"List Hogwarts houses. Compute the longest common prefix between each consecutive alphabetical pair: (G,H), (H,R), (R,S). Output each pair's longest common prefix or 'none'.",,,5,,new
+931,planning,"Name Hogwarts houses. Sort by length ascending. For each adjacent pair, compute the edit distance (number of insertions/deletions to get from one to the other). Output each pair and distance.",,,5,,new
+932,planning,"List Hogwarts houses. Sort alphabetically. Assign scores (position 1=10, 2=7, 3=5, 4=3). Add vowel_count to each score. Sort by final score descending. Output 'House: final_score'.",,,6,,new
+933,planning,"Name all Hogwarts houses. Sort by length. Split into top half and bottom half by length. From each half, take the one with more vowels. Compare those two: output the one with greater length.",,,6,,new
+934,planning,List Hogwarts houses. Step 1: sort alphabetically. Step 2: number them 1-4. Step 3: compute rank*length. Step 4: sort by that product descending. Step 5: take the top 2. Step 6: output them pipe-separated.,,,6,,new
+935,planning,"Name Hogwarts houses. Sort by vowel count desc. For each, compute running_total_vowels. Find after which house the running total first exceeds 10. Output that house name.",,,6,,new
+936,planning,"List all Hogwarts houses. Sort alphabetically. Remove every house at an even position (2nd, 4th). Sort remaining by length desc. Take the first one. Output it.",,,6,,new
+937,planning,"Name Hogwarts houses. Compute for each: (position_in_alphabet_of_last_letter - position_of_first_letter). Sort by this difference descending. Output 'House: diff'. Use a=1, z=26.",,,6,,new
+938,planning,"List Hogwarts houses. Sort alphabetically. For each, compute: alphabetical_rank * vowel_count * consonant_count. Sort by result ascending. Eliminate bottom 2. Output remaining.",,,6,,new
+939,planning,"Name Hogwarts houses. Sort by length ascending. Assign Fibonacci numbers (1,1,2,3) as weights. Compute weight * length for each. Sum all. Output the sum.",,,6,,new
+940,planning,"List all Hogwarts houses. Sort by consonant count ascending. Simulate a tournament: 1st vs 4th (more vowels wins), 2nd vs 3rd (shorter length wins). Final: previous winners face off (more vowels wins). Output champion.",,,6,,new
+941,planning,"Name Hogwarts houses. Alphabetical sort. Compute difference in length between consecutive pairs (House1-House2, House2-House3, House3-House4). Sum all differences. Output the sum.",,,6,,new
+942,planning,"List Hogwarts houses. If you were to sort them by their 'complexity score' = (unique_letters / length), which would rank first? Output that house and its complexity score.",,,4,,new
+943,planning,"Name all Hogwarts houses. Imagine you can only keep the houses whose name length equals the number of vowels * 2 + 1. Which survive? If none, output 'NONE'.",,,4,,new
+944,planning,"List Hogwarts houses. Construct a binary string for each: for every letter, output '1' if it's a vowel, '0' if consonant. Sort houses by their binary string (as a binary number) descending. Output 'House: binary_string: decimal_value'.",,,5,,new
+945,planning,"Name Hogwarts houses. For each, compute a 'balance score' = abs(vowels - consonants). Sort by balance score ascending (more balanced first). Output 'House: balance_score'.",,,5,,new
+946,planning,"List Hogwarts houses. For each, compute: length^2 - vowel_count^2. Call this the 'asymmetry score'. Sort by asymmetry score ascending. Output 'House: asymmetry'.",,,5,,new
+947,planning,"List all Hogwarts houses. Compute: (consonant_count - vowel_count)^2 for each. Sort by this value. If two have the same value, alphabetical. Output: 'Rank. House: value'.",,,6,,new
+948,planning,"Name Hogwarts houses. Sort alphabetically. Compute cumulative product of lengths: 1st=L1, 2nd=L1*L2, 3rd=L1*L2*L3, 4th=L1*L2*L3*L4. Output each step.",,,6,,new
+949,planning,"List Hogwarts houses. For each, compute a 'rarity score' = number of letters in the name that appear fewer than 2 times in that name. Sort by rarity score descending. Output 'House: score'.",,,5,,new
+950,planning,Name all Hogwarts houses. Compute for each: the number of letters that come after 'm' in the alphabet. Sort by count descending. Output 'House: post-m count'.,,,5,,new
+951,planning,"List Hogwarts houses. Sort alphabetically. Compute a 'zigzag score': for odd positions (1,3), add vowel_count; for even positions (2,4), add consonant_count. Sum all. Output the total.",,,6,,new
+952,planning,"List Hogwarts houses. Step1: sort alphabetically. Step2: compute length each. Step3: compute vowels each. Step4: compute consonants each. Step5: rank by length desc. Step6: from top 2, pick more vowels. Step7: output that house and all 4 computed metrics.",,,7,,new
+953,planning,Name all Hogwarts houses. Sort by length. Compute running product of lengths. Find first position where running product > 800. Output the house at that position and the product value.,,,7,,new
+954,planning,"List Hogwarts houses. Compute: for each house, the sum of alphabetical positions of its vowels only. Sort by this vowel-position sum. Output 'House: vowel_position_sum'. Use a=1, z=26.",,,7,,new
+955,planning,"Name Hogwarts houses. For each, compute: number of letters that are in the top half of the alphabet (a-m=0, n-z=1 per letter). Sort by this count descending. Output 'House: post-n count'.",,,6,,new
+956,planning,List Hogwarts houses. Compute for each: longest run of consecutive consonants. Sort by this value descending. Output 'House: max_consonant_run'.,,,6,,new
+957,planning,"Name all Hogwarts houses. Alphabetical sort. For each, compute: number of letters that appear in the word 'SORTING'. Sort by this count descending. Output 'House: count'. Break ties alphabetically.",,,7,,new
+958,planning,"List Hogwarts houses. For each, compute how many of their letters appear in the word 'MAGIC'. Sort by this count ascending. Then sort ties by length. Output 'House: magic_count'.",,,7,,new
+959,planning,"Name Hogwarts houses. For each, compute the number of letters that are in common with the word 'WAND' (as a set). Sort by count descending. Output 'House: wand_overlap'.",,,6,,new
+960,planning,"List Hogwarts houses. For each, compute how many of its letters also appear in 'QUIDDITCH'. Sort by this overlap count descending. Tie-break alphabetically. Output 'House: quidditch_overlap'.",,,6,,new
+961,planning,"Name all Hogwarts houses. For each, compute: (letters in 'HOGWARTS' overlap) - (letters not in 'HOGWARTS'). Sort by this net score descending. Output 'House: net_score'.",,,7,,new
+962,planning,"List Hogwarts houses. For each, count letters that are in the NATO phonetic alphabet words (Alpha, Bravo, Charlie...) — specifically count letters shared with the word 'CHARLIE'. Sort by count.",,,5,,new
+963,planning,"Name Hogwarts houses. For each, compute: number of letters in name that are symmetric (look same mirrored: A, H, I, M, O, T, U, V, W, X, Y). Sort by count descending.",,,5,,new
+964,planning,"List Hogwarts houses. For each, compute the letter-frequency entropy: -sum(p*log2(p)) where p is frequency of each unique letter. Sort by entropy descending. Output 'House: entropy (2 decimal places)'.",,,5,,new
+965,planning,"Name Hogwarts houses. Alphabetical sort. Compute pairwise Jaccard similarity of letter sets: (G,H), (G,R), (G,S), (H,R), (H,S), (R,S). Output all 6 pairs with their Jaccard scores rounded to 2 decimal places.",,,6,,new
+966,planning,"List all Hogwarts houses. Sort by length. For each pair of consecutive houses (sorted by length), compute the Levenshtein distance. Output each pair with its distance.",,,6,,new
+967,planning,"Name Hogwarts houses alphabetically. For each, compute: length + sum of vowel positions in alphabet - sum of consonant positions. Sort by this complex metric ascending. Output 'House: metric'.",,,7,,new
+968,planning,"List Hogwarts houses. For each, compute the second-order metric: (vowel_count)^2 + (consonant_count)^2 - (length). Sort by this metric. Output 'House: metric'. Ascending order.",,,6,,new
+969,planning,Name all Hogwarts houses. Compute for each: z-score of its length relative to all 4 houses (z = (xi - mean)/std). Output 'House: z-score (2 decimal places)'. Sort by z-score descending.,,,7,,new
+970,planning,List Hogwarts houses. Treat letter counts as a vector. Compute cosine similarity between Gryffindor's letter-frequency vector and each other house. Output 'House: cosine_similarity (3 decimal places)'.,,,7,,new
+971,planning,"Name all Hogwarts houses. For each, compute a final composite metric: (length * vowel_percentage) + (unique_letters / length * 10) - abs(vowels - consonants). Sort by composite metric descending. Output final ranking with metric values (2 decimal places).",,,7,,new
